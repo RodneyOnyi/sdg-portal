@@ -1,123 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f82b956b-fb0a-4759-9717-9579d5c672b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sdgportal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/nucleo-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/paper-kit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/nucleo-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/nucleo-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/nucleo-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/nucleo-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/antoine-barres.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bruno-abatti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/creative-tim-white-slim2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/daniel-olahh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/daniel-olahs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/examples/landing-page.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/examples/profile-page.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fabio-mangione.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/ayo-ogunseinde-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/clem-onojeghuo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/clem-onojeghuo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/erik-lucatero-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/joe-gardner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/faces/kaci-baum-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/federico-beccari.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/fog-low.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ilya-yakover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/joshua-stannard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/login-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logos/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdg_icons/E_SDG_Icons-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/soroush-karimi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/uriel-soberanes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-switch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-ui-1.12.1.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/nouislider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/paper-kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_bootstrap-switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_checkbox-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_collapse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_examples.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_navbars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_progress-bars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_sliders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_tabs-navs-pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_tooltips-and-popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_navbars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_transparency.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass/paper-kit/plugins/_datetimepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/tutorial-components.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/landing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nucleo-icons-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-    </list>
+    <list default="true" id="f82b956b-fb0a-4759-9717-9579d5c672b2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -282,16 +166,15 @@
       <option name="presentableId" value="Default" />
       <updated>1529321572257</updated>
       <workItem from="1529321574230" duration="5621000" />
-      <workItem from="1529327941814" duration="479000" />
+      <workItem from="1529327941814" duration="925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6120000" />
+    <option name="totallyTimeSpent" value="6546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="44" width="1281" height="704" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -439,7 +322,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
