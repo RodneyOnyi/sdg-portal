@@ -1,0 +1,67 @@
+{
+    "name": "SDG 2",
+    "children": [{
+        "name": "Target 2.1",
+        "children": [{
+            "name": "2.1.1 Prevalence of undernourishment",
+            "size": 122
+        }, {
+            "name": "2.1.2 Prevalence of moderate or severe food insecurity",
+            "size": 1759
+        }]
+    }, {
+        "name": "Target 2.2",
+        "children": [{
+            "name": "2.2.1 Prevalence of stunting among children under 5",
+            "size": 122
+        },{
+            "name": "2.2.2a Prevalence of overweight among children under 5",
+            "size": 8833
+        },{
+            "name": "2.2.2b Prevalence of wasting among children under 5",
+            "size": 8833
+        }]
+    }, {
+        "name": "Target 2.3",
+        "children": [{
+            "name": "2.3.1 Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+            "size": 8833
+        },{
+            "name": "2.3.2 Average income of small-scale food producers, by sex and indigenous status",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 2.4",
+        "children": [{
+            "name": "2.4.1 Proportion of agricultural area under productive and sustainable agriculture",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 2.5",
+        "children": [{
+            "name": "2.5.1 Number of plant and animal genetic resources for food and agriculture secured",
+            "size": 8833
+        }, {
+            "name": "2.5.2a Proportion of local breeds classified as being at risk",
+            "size": 1732
+        }, {
+            "name": "2.5.2a Proportion of local breeds classified as being not-at-risk",
+            "size": 3623
+        }, {
+            "name": "2.5.2a Proportion of local breeds classified as unknown level of risk of extinction",
+            "size": 10066
+        },{
+            "name": "2.a.1 The agriculture orientation index for government expenditures",
+            "size": 8833
+        }, {
+            "name": "2.a.2 Total official flows to the agriculture sector",
+            "size": 1732
+        }, {
+            "name": "2.b.1 Agricultural export subsidies",
+            "size": 3623
+        }, {
+            "name": "2.c.1 Indicator of food price anomalies",
+            "size": 10066
+        }]
+    }]
+}

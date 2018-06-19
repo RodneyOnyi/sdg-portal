@@ -24,10 +24,24 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
 OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
+var dataSource=null;
+function updateSDG(sdg){
+    if(sdg==1) {
+        $('.wrapper2').empty();
+        dataSource="assets/data/sdg1Data.json";
 
+    }
+    if(sdg==2) {
+        $('.wrapper2').empty();
+        dataSource="assets/data/sdg2Data.json";
+    }
+    if(sdg==3) {
+        $('.wrapper2').empty();
+        dataSource="assets/data/sdg3Data.json";
+    }
 
 // Get JSON data
-treeJSON = d3.json("assets/data/flare.json", function(error, treeData) {
+treeJSON = d3.json(dataSource, function(error, treeData) {
 
     // Calculate total nodes, max label length
     var totalNodes = 0;
@@ -548,3 +562,4 @@ treeJSON = d3.json("assets/data/flare.json", function(error, treeData) {
     update(root);
     centerNode(root);
 });
+}
