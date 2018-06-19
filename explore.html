@@ -5,6 +5,11 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
+    <!-- Dendogram Links for SDG Goals Tree -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link href="assets/css/sdgGoalsTree.css" rel="stylesheet" />
+
     <title>Explore| Data Portal</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -19,14 +24,12 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
 
-    <!-- Links to the d3 libraries -->
-    <link href="assets/css/d3.geomap.css" rel="stylesheet">
-    <script src="assets/vendor/d3.geomap.dependencies.min.js"></script>
-    <script src="assets/js/d3.geomap.min.js"></script>
+    <!-- Links for include header file -->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+
     <style type="text/css">
         .center-div{
-            width: 70%;
+            width: 80%;
             margin: 0 auto;
         }
     </style>
@@ -67,7 +70,7 @@
     
 
     <!-- Div to display the Map based of selection -->
-    <!-- <div id="map"></div> -->
+    <div id="tree-container"  class="wrapper"></div>
 </div>
 
 
@@ -96,15 +99,9 @@
 
 <!--  Paper Kit Initialization snd functons -->
 <script src="assets/js/paper-kit.js?v=2.1.0"></script>
-
-<script type="text/javascript">
-    var map = d3.geomap()
-    .geofile('assets/topojson/countries/KEN.json');
-
-    d3.select('#map')
-        .call(map.draw, map);
-</script>
 <script>
        w3.includeHTML();
 </script>
+<!-- Dendogram Link For SDG Gaols -->
+<script type="text/javascript" src="assets/js/sdgGoalsTree.js"></script>
 </html>
