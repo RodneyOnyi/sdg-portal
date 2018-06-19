@@ -5,10 +5,20 @@
   .overlay{
       background-color:white;
   }
-   
-  .node circle {
+  .sdg1 .node circle {
     fill: #e5243b !important;
     stroke: #e5243b;
+    stroke-width: 1.5px;
+  }
+
+   .sdg2 .node circle {
+    fill: #DDA63A !important;
+    stroke: #DDA63A;
+    stroke-width: 1.5px;
+  }
+   .sdg3 .node circle {
+    fill: #4C9F38 !important;
+    stroke: #4C9F38;
     stroke-width: 1.5px;
   }
    

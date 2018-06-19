@@ -27,16 +27,21 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 var dataSource=null;
 function updateSDG(sdg){
     if(sdg==1) {
-        $('.wrapper2').empty();
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg1');
         dataSource="assets/data/sdg1Data.json";
-
     }
     if(sdg==2) {
-        $('.wrapper2').empty();
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg2');
         dataSource="assets/data/sdg2Data.json";
     }
     if(sdg==3) {
-        $('.wrapper2').empty();
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg3');
         dataSource="assets/data/sdg3Data.json";
     }
 
