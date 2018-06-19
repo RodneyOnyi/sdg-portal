@@ -19,39 +19,55 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
 
+    <!-- Links to the d3 libraries -->
+    <link href="assets/css/d3.geomap.css" rel="stylesheet">
+    <script src="assets/vendor/d3.geomap.dependencies.min.js"></script>
+    <script src="assets/js/d3.geomap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <style type="text/css">
+        .center-div{
+            width: 70%;
+            margin: 0 auto;
+        }
+    </style>
+
 </head>
 <body>
 
 
 
 <!--    navbar come here          -->
-
-
-
+    <div w3-include-html="header.html"></div>
 <!-- end navbar  -->
-
+<br><br><br><br><br><br><br>
 
 
 <div class="wrapper">
 
     <!-- content come here     -->
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg" style="width:50px;height:50px;"></a>
-    <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg" style="width:50px;height:50px;"></a>
+    <div class="center-div">
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg" style="width:50px;height:50px;"></a>
+            <a href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg" style="width:50px;height:50px;"></a>
+    </div>
+    
+
+    <!-- Div to display the Map based of selection -->
+    <!-- <div id="map"></div> -->
 </div>
 
 
@@ -80,4 +96,15 @@
 
 <!--  Paper Kit Initialization snd functons -->
 <script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
+<script type="text/javascript">
+    var map = d3.geomap()
+    .geofile('assets/topojson/countries/KEN.json');
+
+    d3.select('#map')
+        .call(map.draw, map);
+</script>
+<script>
+       w3.includeHTML();
+</script>
 </html>
