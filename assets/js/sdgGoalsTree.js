@@ -44,6 +44,90 @@ function updateSDG(sdg){
         $('#tree-container').addClass('sdg3');
         dataSource="assets/data/sdg3Data.json";
     }
+    if(sdg==4) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg4');
+        dataSource="assets/data/sdg4Data.json";
+    }
+    if(sdg==5) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg5');
+        dataSource="assets/data/sdg5Data.json";
+    }
+    if(sdg==6) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg6');
+        dataSource="assets/data/sdg6Data.json";
+    }
+    if(sdg==7) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg7');
+        dataSource="assets/data/sdg7Data.json";
+    }
+    if(sdg==8) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg8');
+        dataSource="assets/data/sdg8Data.json";
+    }
+    if(sdg==9) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg9');
+        dataSource="assets/data/sdg9Data.json";
+    }
+    if(sdg==10) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg10');
+        dataSource="assets/data/sdg10Data.json";
+    }
+    if(sdg==11) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg11');
+        dataSource="assets/data/sdg11Data.json";
+    }
+    if(sdg==12) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg12');
+        dataSource="assets/data/sdg12Data.json";
+    }
+    if(sdg==13) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg13');
+        dataSource="assets/data/sdg13Data.json";
+    }
+    if(sdg==14) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg14');
+        dataSource="assets/data/sdg14Data.json";
+    }
+    if(sdg==15) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg15');
+        dataSource="assets/data/sdg15Data.json";
+    }
+    if(sdg==16) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg16');
+        dataSource="assets/data/sdg16Data.json";
+    }
+    if(sdg==17) {
+        $('#tree-container').empty();
+        $('#tree-container').removeClass();
+        $('#tree-container').addClass('sdg17');
+        dataSource="assets/data/sdg17Data.json";
+    }
 
 // Get JSON data
 treeJSON = d3.json(dataSource, function(error, treeData) {

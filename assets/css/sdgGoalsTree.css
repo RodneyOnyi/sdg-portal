@@ -21,6 +21,76 @@
     stroke: #4C9F38;
     stroke-width: 1.5px;
   }
+  .sdg4 .node circle {
+    fill: #C5192D !important;
+    stroke: #C5192D;
+    stroke-width: 1.5px;
+  }
+  .sdg5 .node circle {
+    fill: #FF3A21 !important;
+    stroke: #FF3A21;
+    stroke-width: 1.5px;
+  }
+  .sdg6 .node circle {
+    fill: #26BDE2 !important;
+    stroke: #26BDE2;
+    stroke-width: 1.5px;
+  }
+  .sdg7 .node circle {
+    fill: #FCC30B !important;
+    stroke: #FCC30B;
+    stroke-width: 1.5px;
+  }
+  .sdg8 .node circle {
+    fill: #A21942 !important;
+    stroke: #A21942;
+    stroke-width: 1.5px;
+  }
+  .sdg9 .node circle {
+    fill: #FD6925 !important;
+    stroke: #FD6925;
+    stroke-width: 1.5px;
+  }
+  .sdg10 .node circle {
+    fill: #DD1367 !important;
+    stroke: #DD1367;
+    stroke-width: 1.5px;
+  }
+  .sdg11 .node circle {
+    fill: #FD9D24 !important;
+    stroke: #FD9D24;
+    stroke-width: 1.5px;
+  }
+  .sdg12 .node circle {
+    fill: #BF8B2E !important;
+    stroke: #BF8B2E;
+    stroke-width: 1.5px;
+  }
+  .sdg13 .node circle {
+    fill: #3F7E44 !important;
+    stroke: #3F7E44;
+    stroke-width: 1.5px;
+  }
+  .sdg14 .node circle {
+    fill: #0A97D9 !important;
+    stroke: #0A97D9;
+    stroke-width: 1.5px;
+  }
+  .sdg15 .node circle {
+    fill: #56C02B !important;
+    stroke: #56C02B;
+    stroke-width: 1.5px;
+  }
+  .sdg16 .node circle {
+    fill: #00689D !important;
+    stroke: #00689D;
+    stroke-width: 1.5px;
+  }
+  .sdg17 .node circle {
+    fill: #19486A !important;
+    stroke: #19486A;
+    stroke-width: 1.5px;
+  }
    
   .node text {
     font-size:10px; 
