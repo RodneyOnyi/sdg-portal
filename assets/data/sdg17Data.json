@@ -100,15 +100,51 @@
             "size": 8833
         }]
     },{
-        "name": "Target 17.12",
+        "name": "Target 17.15",
         "children": [{
-            "name": "17.12.1 Average import tariffs faced by products exported (%)",
+            "name": "17.15.1 Extent of use of country-owned results frameworks and....",
             "size": 8833
         }]
     },{
-        "name": "Target 17.12",
+        "name": "Target 17.16",
         "children": [{
-            "name": "17.12.1 Average import tariffs faced by products exported (%)",
+            "name": "17.16.1 Number of countries reporting progress in multi-stakeh......",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.17",
+        "children": [{
+            "name": "17.17.1 Amount of United States dollars committed to public-pri.....",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.18",
+        "children": [{
+            "name": "17.18.1 Proportion of sustainable development indicators produced",
+            "size": 8833
+        },{
+            "name": "17.18.2 Compliance to UN Fundamental Principles of Official Statistics",
+            "size": 8833
+        },{
+            "name": "17.18.3 Fully Funded",
+            "size": 8833
+        },{
+            "name": "17.18.3 Implementation stage",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.19",
+        "children": [{
+            "name": "17.19.1 Value of resources to strengthen statistical capacity (in USD)",
+            "size": 8833
+        },{
+            "name": "17.19.2(a) Population and housing census",
+            "size": 8833
+        },{
+            "name": "17.19.2(b) Completeness of birth registration (%)",
+            "size": 8833
+        },{
+            "name": "17.19.2(b) Completeness of death registration (%)",
             "size": 8833
         }]
     }]
