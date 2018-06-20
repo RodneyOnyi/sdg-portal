@@ -4,6 +4,7 @@
 
   .overlay{
       background-color:white;
+      height: 800px !important;
   }
   .sdg1 .node circle {
     fill: #e5243b !important;
@@ -99,7 +100,7 @@
    
   .link {
     fill: none;
-    stroke: #ccc;
+    stroke: black;
     stroke-width: 1.5px;
   }
 

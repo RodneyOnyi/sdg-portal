@@ -278,8 +278,8 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
     var baseSvg = d3.select("#tree-container").append("svg")
         .attr("width", viewerWidth)
         .attr("height", viewerHeight)
-        .attr("class", "overlay")
-        .call(zoomListener);
+        .attr("class", "overlay");
+        // .call(zoomListener);
 
 
     // Define the drag listeners for drag/drop behaviour of nodes.
@@ -435,8 +435,8 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
         scale = zoomListener.scale();
         x = -source.y0;
         y = -source.x0;
-        x = x * scale + viewerWidth / 8;
-        y = y * scale + viewerHeight / 3;
+        x = x * scale + viewerWidth / 7;
+        y = y * scale + viewerHeight / 1.5;
         d3.select('g').transition()
             .duration(duration)
             .attr("transform", "translate(" + x + "," + y + ")scale(" + scale + ")");
@@ -483,7 +483,7 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line  
+        var newHeight = d3.max(levelWidth) * 20; // 25 pixels per line  
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -492,7 +492,7 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
 
         // Set widths between levels based on maxLabelLength.
         nodes.forEach(function(d) {
-            d.y = (d.depth * (maxLabelLength * 5)); //maxLabelLength * 10px
+            d.y = (d.depth * (maxLabelLength * 3)); //maxLabelLength * 10px
             // alternatively to keep a fixed scale one can set a fixed depth per level
             // Normalize for fixed-depth by commenting out below line
             // d.y = (d.depth * 500); //500px per level.
