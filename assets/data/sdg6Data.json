@@ -1,0 +1,61 @@
+{
+    "name": "SDG 6",
+    "children": [{
+        "name": "Target 6.1",
+        "children": [{
+            "name": "6.1.1 Access to safely managed water (% population)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 6.2",
+        "children": [{
+            "name": "6.2.1 Access to safely managed sanitation facilities (% population)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 6.3",
+        "children": [{
+            "name": "6.3.1 Proportion of wastewater safely treated",
+            "size": 8833
+        },{
+            "name": "6.3.2 Proportion of bodies of water with good ambient water quality",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 6.4",
+        "children": [{
+            "name": "6.4.1 Change in water-use efficiency over time",
+            "size": 8833
+        },{
+            "name": "6.4.2 Level of water stress",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 6.5",
+        "children": [{
+            "name": "6.5.1  Degree of integrated water resources management implementation",
+            "size": 8833
+        },{
+            "name": "6.5.2  Proportion of transboundary basin area with an operational arrangement for water cooperation",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 6.6",
+        "children": [{
+            "name": "6.6.1  Change in the extent of water-related ecosystems over time",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 6.a",
+        "children": [{
+            "name": "6.a.1  Proportion of water and sanitation ODA on spending plan",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 6.b",
+        "children": [{
+            "name": "6.b.1  Proportion of local administrative units with established...",
+            "size": 8833
+        }]
+    }]
+}

@@ -1,144 +1,75 @@
 {
-    "name": "SDG 4",
+    "name": "SDG 5",
     "children": [{
-        "name": "Target 4.1",
+        "name": "Target 5.1",
         "children": [{
-            "name": "4.1.1b(i) Primary students proficient in reading (%)",
-            "size": 122
-        }, {
-            "name": "4.1.1b(ii) Primary students proficient in mathematics (%)",
-            "size": 1759
-        }, {
-            "name": "4.1.1c(i) Lower secondary students proficient in mathematics (%)",
-            "size": 1759
-        }, {
-            "name": "4.1.1c(ii) Lower secondary students proficient in mathematics (%)",
-            "size": 1759
-        }]
-    }, {
-        "name": "Target 4.2",
-        "children": [{
-            "name": "4.2.1 Children under 5 developmentally on track",
-            "size": 122
-        },{
-            "name": "4.2.2 Organized learning one year before official primary entry age (%)",
+            "name": "5.1.1 Legal frameworks for gender discrimination",
             "size": 122
         }]
     }, {
-        "name": "Target 4.3",
+        "name": "Target 5.2",
         "children": [{
-            "name": "4.3.1 Youth and adults (age 15-24) in formal and non-formal education and training (%)",
+            "name": "5.2.1 Domestic violence (%)",
+            "size": 122
+        },{
+            "name": "5.2.2 Sexual violence (%)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 5.3",
+        "children": [{
+            "name": "5.3.1 Child marriage (%)",
             "size": 8833
         },{
-            "name": "4.3.1 Youth and adults (age 25-64) in formal and non-formal education and training (%)",
+            "name": "5.3.2 Female genital mutilation (%)",
             "size": 8833
         }]
     },{
-        "name": "Target 4.4",
+        "name": "Target 5.4",
         "children": [{
-            "name": "4.4.1 Youth and adults (age 15+) with ICT skills (%)",
+            "name": "5.4.1 Unpaid domestic work, time",
             "size": 8833
         }]
     },{
-        "name": "Target 4.5",
+        "name": "Target 5.5",
         "children": [{
-            "name": "4.5.1  Parity indices for all education indicators on this list that can be disaggregated",
+            "name": "5.5.1a  Women in elected government (%)",
+            "size": 8833
+        },{
+            "name": "5.5.2  Women in management (%)",
             "size": 8833
         }]
     },{
-        "name": "Target 4.6",
+        "name": "Target 5.6",
         "children": [{
-            "name": "4.6.1  Percentage of population in a given age group achieving at least a fixed level of ..",
+            "name": "5.6.1  Women making informed decisions on sexual health (%)",
+            "size": 8833
+        },{
+            "name": "5.6.2  Laws guarantee women access to sexual health care and education",
             "size": 8833
         }]
     },{
-        "name": "Target 4.7",
+        "name": "Target 5.a",
         "children": [{
-            "name": "4.7.1  Extent to which (i) global citizenship education and (ii) education for sustainable..",
+            "name": "5.a.1a  Agricultural population with ownership rights (%)",
+            "size": 8833
+        },{
+            "name": "5.a.1b  Women owners of agricultural land (%)",
+            "size": 8833
+        },{
+            "name": "5.a.2  Women's equal rights to land ownership law",
             "size": 8833
         }]
     },{
-        "name": "Target 4.a",
+        "name": "Target 5.b",
         "children": [{
-            "name": "4.a.1 Primary schools with electricity (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with internet (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with computers (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with adapted disability infrastructure and materials (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with basic drinking water (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with single-sex bathrooms (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Primary schools with basic handwashing facilities (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with electricity (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with internet (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with computers (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with adapted disability infrastructure and materials (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with basic drinking water (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with single-sex bathrooms (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Lower secondary schools with basic handwashing facilities (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with internet (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with computers (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with adapted disability infrastructure and materials (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with basic drinking water (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with single-sex bathrooms (%)",
-            "size": 8833
-        },{
-            "name": "4.a.1 Upper secondary schools with basic handwashing facilities (%)",
+            "name": "5.b.1 Mobile telephone owners (%)",
             "size": 8833
         }]
     },{
-        "name": "Target 4.b",
+        "name": "Target 5.c",
         "children": [{
-            "name": "4.b.1 Total ODA for scholarships (in USD)",
-            "size": 8833
-        }]
-    },{
-        "name": "Target 4.c",
-        "children": [{
-            "name": "4.c.1 Trained pre-primary teachers (%)",
-            "size": 8833
-        },{
-            "name": "4.c.1 Trained primary teachers (%)",
-            "size": 8833
-        },{
-            "name": "4.c.1 Trained lower secondary teachers (%)",
-            "size": 8833
-        },{
-            "name": "4.c.1 Trained upper secondary teachers (%)",
+            "name": "5.c.1 Public allocations for gender equality",
             "size": 8833
         }]
     }]

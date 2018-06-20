@@ -1,0 +1,79 @@
+{
+    "name": "SDG 11",
+    "children": [{
+        "name": "Target 11.1",
+        "children": [{
+            "name": "11.1.1 Urban population living in slums ",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 11.2",
+        "children": [{
+            "name": "11.2.1 Population with convenient access to public transport",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 11.3",
+        "children": [{
+            "name": "11.3.1 Ratio of land consumption rate to population growth rate",
+            "size": 8833
+        },{
+            "name": "11.3.2  Proportion of cities with a direct participation structure",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.4",
+        "children": [{
+            "name": "11.4.1 Total expenditure (public and private) per capita spent on the preservation,",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.5",
+        "children": [{
+            "name": "11.5.1 Number of deaths, missing persons and directly affected persons a",
+            "size": 8833
+        },{
+            "name": "11.5.2 Direct economic loss attributed to disasters",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.6",
+        "children": [{
+            "name": "11.6.1 Urban solid waste",
+            "size": 8833
+        },{
+            "name": "11.6.2 Annual urban mean concentration of PM2.5",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.7",
+        "children": [{
+            "name": "11.7.1 Average share of the built-up area of cities that is open spac",
+            "size": 8833
+        },{
+            "name": "11.7.2 Proportion of persons victim of physical or sexual harassment",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.a",
+        "children": [{
+            "name": "11.a.1 Proportion of population living in cities that implement urban ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.b",
+        "children": [{
+            "name": "11.b.1 Number of countries that adopt and implement national disaster...",
+            "size": 8833
+        },{
+            "name": "11.b.2 Proportion of local governments that adopt and implement local...",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 11.c",
+        "children": [{
+            "name": "11.c.1 Proportion of financial support to the least developed countries ",
+            "size": 8833
+        }]
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "SDG 13",
+    "children": [{
+        "name": "Target 13.1",
+        "children": [{
+            "name": "13.1.1 Persons affected by diasters (%)",
+            "size": 122
+        },{
+            "name": "13.1.2 Adopt and implement national disaster risk reduction strategies",
+            "size": 122
+        },{
+            "name": "13.1.3 Proportion of local governments that adopt and implement local",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 13.2",
+        "children": [{
+            "name": "13.2.1 Number of countries that have communicated the establishment or operationalization",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 13.3",
+        "children": [{
+            "name": "13.3.1 Number of countries that have integrated mitigation, adaptation..",
+            "size": 8833
+        },{
+            "name": "13.3.2 Number of countries that have communicated the strengthening of..",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 13.a",
+        "children": [{
+            "name": "13.a.1 Mobilized amount of United States dollars per year between 2020 and 2025..",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 13.b",
+        "children": [{
+            "name": "13.b.1 Number of least developed countries and small island developing States ",
+            "size": 8833
+        }]
+    }]
+}

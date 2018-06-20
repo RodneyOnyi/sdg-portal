@@ -1,0 +1,82 @@
+{
+    "name": "SDG 15",
+    "children": [{
+        "name": "Target 15.1",
+        "children": [{
+            "name": "15.1.1 Forest area as a proportion of total land area",
+            "size": 122
+        },{
+            "name": "15.1.2 Proportion of important sites for terrestrial and freshwater biodiversity",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 15.2",
+        "children": [{
+            "name": "15.2.1 Progress towards sustainable forest management",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 15.3",
+        "children": [{
+            "name": "15.3.1 Proportion of land that is degraded over total land area",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.4",
+        "children": [{
+            "name": "15.4.1 Protection of mountain biodiversity sites",
+            "size": 8833
+        },{
+            "name": "15.4.2 Mountain Green Cover Index",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.5",
+        "children": [{
+            "name": "15.5.1 Red List Index",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.6",
+        "children": [{
+            "name": "15.6.1 Reporting on the Nagoya Protocol (2010) on Access to Genetic Resources",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.7",
+        "children": [{
+            "name": "15.7.1 Proportion of traded wildlife that was poached or illicitly trafficked",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.8",
+        "children": [{
+            "name": "15.8.1 Legislation and resourcing for invasive alien species prevention",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.9",
+        "children": [{
+            "name": "15.9.1 Aichi Biodiversity Target 2 progress",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.a",
+        "children": [{
+            "name": "15.a.1 Public expenditure on conservation ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.b",
+        "children": [{
+            "name": "15.b.1 Public expenditure on conservation",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 15.c",
+        "children": [{
+            "name": "15.c.1 Proportion of traded wildlife that was poached or illicitly trafficked",
+            "size": 8833
+        }]
+    }]
+}

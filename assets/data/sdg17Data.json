@@ -1,0 +1,115 @@
+{
+    "name": "SDG 17",
+    "children": [{
+        "name": "Target 17.1",
+        "children": [{
+            "name": "17.1.1 Total government revenue as a proportion of GDP",
+            "size": 122
+        },{
+            "name": "17.1.2 Proportion of domestic budget funded by domestic taxes",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 17.2",
+        "children": [{
+            "name": "17.2.1 Net ODA as proportion of donors' GNI",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 17.3",
+        "children": [{
+            "name": "17.3.1 ODA distributions as proportion of total domestic budget (in USD)",
+            "size": 8833
+        },{
+            "name": "17.3.2 Volume of remittances (in USD)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.4",
+        "children": [{
+            "name": "17.4.1 Debt service as a proportion of exports of goods and services",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.5",
+        "children": [{
+            "name": "17.5.1 Adoption and implementation of investment promotion regimes",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.6",
+        "children": [{
+            "name": "17.6.1 Science/Technology cooperation agreements and programs between countries",
+            "size": 8833
+        },{
+            "name": "17.6.2 Fixed Internet broadband subscriptions per 100 inhabitants, 256 kbits/s to 2 Mbit/s",
+            "size": 8833
+        },{
+            "name": "17.6.2 Fixed Internet broadband subscriptions per 100 inhabitants, 2 Mbit/s to less than 10 Mbits/s",
+            "size": 8833
+        },{
+            "name": "17.6.2 Fixed Internet broadband subscriptions per 100 inhabitants, equal to or above 10 Mbit/s",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.7",
+        "children": [{
+            "name": "17.7.1 Total amount of approved funding for developing countries to promote the development",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.8",
+        "children": [{
+            "name": "17.8.1 Proportion of individuals using the Internet",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.9",
+        "children": [{
+            "name": "17.9.1 Total monetary flow for capacity building and national planning (in USD)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.10",
+        "children": [{
+            "name": "17.10.1 Worldwide weighted tariff-average",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.11",
+        "children": [{
+            "name": "17.11.1 Share of global trade of total trade (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.12",
+        "children": [{
+            "name": "17.12.1 Average import tariffs faced by products exported (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.13",
+        "children": [{
+            "name": "17.13.1 Macroeconomic Dashboard",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.14",
+        "children": [{
+            "name": "17.14.1 Number of countries with mechanisms in place to enhance....",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.12",
+        "children": [{
+            "name": "17.12.1 Average import tariffs faced by products exported (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 17.12",
+        "children": [{
+            "name": "17.12.1 Average import tariffs faced by products exported (%)",
+            "size": 8833
+        }]
+    }]
+}
