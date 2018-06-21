@@ -572,13 +572,13 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
               .style("fill",function (d) { return d.children  ? "white": "lightsteelblue"; } )
               .style("fill-opacity",function (d) { return d.children  ? null: ".3"; })        // set to 1e-6 to hide          
               .on("click",function(d){click(d)})
-              .attr("data-toggle", "modal");
+              .attr("data-toggle",function (d) { return d.children  ? null: "modal"; });
 
         function click(d) 
              { 
              //node.attr("xlink:href",function(d){return d.url;})
-             node.attr("data-toggle", "modal")
-             node.attr("xlink:href","#myModal")
+             node.attr("data-toggle",function (d) { return d.children  ? null: "modal"; })
+             node.attr("xlink:href",function (d) { return d.children  ? null: "#myModal"; })
 
         }
 
