@@ -534,6 +534,7 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
             })
             .style("fill-opacity", 0);
 
+
         // phantom node to give us mouseover in a radius around it
         nodeEnter.append("circle")
             .attr('class', 'ghostCircle')
@@ -559,6 +560,28 @@ treeJSON = d3.json(dataSource, function(error, treeData) {
             .text(function(d) {
                 return d.name;
             });
+
+        nodeEnter
+          .append("a")
+          .append("rect")
+              .attr("class", "clickable")
+              .attr("y", -6)
+              .attr("x", function (d) { return d.children || d._children ? -60 : 10; })
+              .attr("width",function (d) { return d.children  ? null: "300"; }) //2*4.5)
+              .attr("height",function (d) { return d.children  ? null: "12"; })
+              .style("fill",function (d) { return d.children  ? "white": "lightsteelblue"; } )
+              .style("fill-opacity",function (d) { return d.children  ? null: ".3"; })        // set to 1e-6 to hide          
+              .on("click",function(d){click(d)})
+              .attr("data-toggle", "modal");
+
+        function click(d) 
+             { 
+             //node.attr("xlink:href",function(d){return d.url;})
+             node.attr("data-toggle", "modal")
+             node.attr("xlink:href","#myModal")
+
+        }
+
 
         // Change the circle fill depending on whether it has children and is collapsed
         node.select("circle.nodeCircle")
