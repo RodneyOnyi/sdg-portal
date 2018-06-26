@@ -2,7 +2,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     "theme": "light",
     "type": "serial",
     "dataLoader":{
-        "url": "http://localhost/sdgportal/assets/data/data1.json",
+        "url": "assets/data/data1.json",
         "format": "json"
     },
     "valueAxes": [{
