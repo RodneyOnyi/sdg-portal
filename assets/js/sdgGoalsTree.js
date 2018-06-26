@@ -30,7 +30,7 @@ function updateSDG(sdg){
         $('#tree-container').empty();
         $('#tree-container').removeClass();
         $('#tree-container').addClass('sdg1');
-        dataSource="assets/data/sdg1Data.json";
+        dataSource="https://test.sdgca.intellisoftkenya.com/sdgportal/assets/data/data1.json";
     }
     if(sdg==2) {
         $('#tree-container').empty();
