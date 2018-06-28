@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>SDCGA Data Portal</title>
+	<title>Dashboard | Data Portal</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
@@ -19,22 +19,25 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/nucleo-icons.css" rel="stylesheet" />
 
+	<!-- Script to include header file -->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
 </head>
 <body>
 
 
 
 <!--    navbar come here          -->
-
-
-
+ <div w3-include-html="header.html"></div><br><br><br>
 <!-- end navbar  -->
 
 
-
-<div class="wrapper">
+<div class="wrapper" style="background-color: black !important;">
 
     <!-- content come here     -->
+    <div style="background-color: black !important; float: left; width: 33.33%; "></div>
+	<div style="color: green;"></div>
+
 
 </div>
 
@@ -64,4 +67,7 @@
 
 <!--  Paper Kit Initialization snd functons -->
 <script src="assets/js/paper-kit.js?v=2.1.0"></script>
+<script>
+       w3.includeHTML();
+</script>
 </html>
