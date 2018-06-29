@@ -32,6 +32,13 @@
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
     <script src="https://code.highcharts.com/mapdata/custom/africa.js"></script>
+
+    <!-- Sample Line Chart libraries -->
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 </head>
 <body>
 
@@ -66,15 +73,22 @@
     					</div>
     				</div>
     				<div class="row">
-    					<div class="col-md-6">
+    					<div class="col-md-12">
     						<h4>SDG INDICATOR 1.A.1</h4>
     						<h5 style="color: #e5243b !important;">Title</h5>
     						<p style="color: black !important;"><strong>Definition:</strong>xxxxx</p>
     						<p style="color: black !important;"><strong>Goal:</strong></p>
     					</div>
-    					<div class="col-md-6">
+    					<div class="col-md-12">
     						<div id="container" style="height: 500px; min-width: 310px; max-width: 800px; margin: 0 auto">    							
     						</div>
+    						<table class="table">
+    							<tbody>
+    								<tr class="info" style="color: black !important; text-align: center; background-color: white">
+    									<td><a onclick="loadMap(1)" href="#">Map</a></td><td><a onclick="loadMap(2)" href="#">Chart</a></td><td>Data</td>
+    								</tr>
+    							</tbody>
+    						</table>
     					</div>
     				</div><br/> 
     				<div class="row" id="target" style="background-color: #e5243b; width: 100%; margin: 0">
@@ -153,6 +167,8 @@
 
 <!-- Highmaps Link for Africa -->
 <script type="text/javascript" src="../assets/js/africa-map.js"></script>
+<script type="text/javascript" src="../assets/js/lineChartSample.js"></script>
+
 <script>
        w3.includeHTML();
 </script>
