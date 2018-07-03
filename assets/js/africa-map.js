@@ -162,7 +162,8 @@ if(n==2){
         "id": "v1",
         "axisAlpha": 0,
         "position": "left",
-        "ignoreAxisWidth":true
+        "ignoreAxisWidth":true,
+        "title": "Y axis"
     }],
     "balloon": {
         "borderThickness": 1,
@@ -218,9 +219,10 @@ if(n==2){
     },
     "categoryField": "date",
     "categoryAxis": {
-        "parseDates": true,
+        "parseDates": false,
         "dashLength": 1,
-        "minorGridEnabled": true
+        "minorGridEnabled": true,
+        "title":"X axis"
     },
     "export": {
         "enabled": true
