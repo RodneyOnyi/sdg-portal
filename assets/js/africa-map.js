@@ -3,6 +3,10 @@
 TODO:
 - Check data labels after drilling. Label rank? New positions?
 */
+$( document ).ready(function() {
+    loadMap(1);
+});
+
 function loadMap(n){
 if(n==1){
     var data = Highcharts.geojson(Highcharts.maps['custom/africa']),
