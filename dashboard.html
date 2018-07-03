@@ -21,6 +21,8 @@
 
 	<!-- Script to include header file -->
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/scoreSample.js" type="text/javascript"></script>
 	<style type="text/css">
 		.div-africa{
 			float: right; 
@@ -33,22 +35,31 @@
 		}
 		.sdg-header{
 			text-align: center;
-			width: 73px;
-			vertical-align: top;
 			margin-top: 10%;
-			height: 77px;
+			min-width: 60px;
+			min-height: 77px;
+			vertical-align: top !important;
+			border-left: 1px solid #f0f0f0;
+		}
+		.sdg-header2{
+			text-align: center;
+			margin-top: 10%;
+			min-width: 60px;
+			min-height: 10px;
+			vertical-align: bottom !important;
+			border-left: 1px solid #f0f0f0;
 		}
 		.sdg-p{
 			font-weight: bold;
+			font-size: 10px;
 		}
 		table{
-			margin-top: 4%;
+			margin-top: 1%;
 		}
 		.sdg-f{
 			vertical-align: bottom !important;
 		}
 	</style>
-
 </head>
 <body>
 
@@ -73,30 +84,57 @@
     	<button class="div-africa" style="background: #df1767;">West Africa</button>
     </div>
 	<div style="float: right; width: 85%; height: 499px">
-		<table style="width: 85%">
+		<table style="width: 80%" id="records_table">
 			<thead>
 				<tr>
-					<th class="sdg-header" style="min-width: 73px; min-height: 77px"></th>
-					<th class="sdg-header" style="color: #e5243b;"><p class="sdg-p">No Poverty</p><p class="sdg-f">1</p></th>
-					<th class="sdg-header" style="color: #DDA63A;"><p class="sdg-p">Zero Hunger</p><p>2</p></th>
-					<th class="sdg-header" style="color: #4C9F38;"><p class="sdg-p">Good Health & Well-Being</p><p>3</p></th>
-					<th class="sdg-header" style="color: #C5192D;"><p class="sdg-p">Quality Education</p><p>4</p></th>
-					<th class="sdg-header" style="color: #FF3A21;"><p class="sdg-p">Gender Equality</p><p>5</p></th>
-					<th class="sdg-header" style="color: #26BDE2;"><p class="sdg-p">Clean Water & Sanitation</p><p>6</p></th>
-					<th class="sdg-header" style="color: #FCC30B;"><p class="sdg-p">Affordable & Clean Energy</p><p>7</p></th>
-					<th class="sdg-header" style="color: #A21942;"><p class="sdg-p">Decent Work & Economic Growth</p><p>8</p></th>
-					<th class="sdg-header" style="color: #FD6925;"><p class="sdg-p">Industry, Innovation & Infrastructure</p><p>9</p></th>
-					<th class="sdg-header" style="color: #DD1367;"><p class="sdg-p">Reduced Inequalities</p><p>10</p></th>
-					<th class="sdg-header" style="color: #FD9D24;"><p class="sdg-p">Sustainable Cities & Communities</p><p>11</p></th>
-					<th class="sdg-header" style="color: #BF8B2E;"><p class="sdg-p">Responsible Consumption & Protection</p><p>12</p></th>
-					<th class="sdg-header" style="color: #3F7E44;"><p class="sdg-p">Climate Action</p><p>13</p></th>
-					<th class="sdg-header" style="color: #0A97D9;"><p class="sdg-p">Life Below Water</p><p>14</p></th>
-					<th class="sdg-header" style="color: #56C02B;"><p class="sdg-p">Life On Land</p><p>15</p></th>
-					<th class="sdg-header" style="color: #00689D;"><p class="sdg-p">Peace, Justice & Strong  Institutions</p><p>16</p></th>
-					<th class="sdg-header" style="color: #19486A;"><p class="sdg-p">Partnership For The Goals</p><p>17</p></th>
+					<th class="sdg-header"></th>
+					<th class="sdg-header" style="color: #e5243b;"><p class="sdg-p">No Poverty</p></th>
+					<th class="sdg-header" style="color: #DDA63A;"><p class="sdg-p">Zero Hunger</p></th>
+					<th class="sdg-header" style="color: #4C9F38;"><p class="sdg-p">Good Health & Well-Being</p></th>
+					<th class="sdg-header" style="color: #C5192D;"><p class="sdg-p">Quality Education</p></th>
+					<th class="sdg-header" style="color: #FF3A21;"><p class="sdg-p">Gender Equality</p></th>
+					<th class="sdg-header" style="color: #26BDE2;"><p class="sdg-p">Clean Water & Sanitation</p></th>
+					<th class="sdg-header" style="color: #FCC30B;"><p class="sdg-p">Affordable & Clean Energy</th>
+					<th class="sdg-header" style="color: #A21942;"><p class="sdg-p">Decent Work & Economic Growth</p></th>
+					<th class="sdg-header" style="color: #FD6925;"><p class="sdg-p">Industry, Innovation & Infrastructure</p></th>
+					<th class="sdg-header" style="color: #DD1367;"><p class="sdg-p">Reduced Inequalities</p></th>
+					<th class="sdg-header" style="color: #FD9D24;"><p class="sdg-p">Sustainable Cities & Communities</p></th>
+					<th class="sdg-header" style="color: #BF8B2E;"><p class="sdg-p">Responsible Consumption & Protection</p></th>
+					<th class="sdg-header" style="color: #3F7E44;"><p class="sdg-p">Climate Action</p></th>
+					<th class="sdg-header" style="color: #0A97D9;"><p class="sdg-p">Life Below Water</p></th>
+					<th class="sdg-header" style="color: #56C02B;"><p class="sdg-p">Life On Land</p></th>
+					<th class="sdg-header" style="color: #00689D;"><p class="sdg-p">Peace, Justice & Strong  Institutions</p></th>
+					<th class="sdg-header" style="color: #19486A;"><p class="sdg-p">Partnership For The Goals</p></th>
+				</tr>
+				<tr>
+					<th class="sdg-header2"></th>
+					<th class="sdg-header2" style="color: #e5243b;"><p class="sdg-f">1</p></th>
+					<th class="sdg-header2" style="color: #DDA63A;"><p>2</p></th>
+					<th class="sdg-header2" style="color: #4C9F38;"><p>3</p></th>
+					<th class="sdg-header2" style="color: #C5192D;"><p>4</p></th>
+					<th class="sdg-header2" style="color: #FF3A21;"><p>5</p></th>
+					<th class="sdg-header2" style="color: #26BDE2;"><p>6</p></th>
+					<th class="sdg-header2" style="color: #FCC30B;"><p>7</p></th>
+					<th class="sdg-header2" style="color: #A21942;"><p>8</p></th>
+					<th class="sdg-header2" style="color: #FD6925;"><p>9</p></th>
+					<th class="sdg-header2" style="color: #DD1367;"><p>10</p></th>
+					<th class="sdg-header2" style="color: #FD9D24;"><p>11</p></th>
+					<th class="sdg-header2" style="color: #BF8B2E;"><p>12</p></th>
+					<th class="sdg-header2" style="color: #3F7E44;"><p>13</p></th>
+					<th class="sdg-header2" style="color: #0A97D9;"><p>14</p></th>
+					<th class="sdg-header2" style="color: #56C02B;"><p>15</p></th>
+					<th class="sdg-header2" style="color: #00689D;"><p>16</p></th>
+					<th class="sdg-header2" style="color: #19486A;"><p>17</p></th>
 				</tr>
 			</thead>
-			<tbody></tbody>
+			<tbody>
+				<tr>
+					<td>Algeria</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Angola</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+			</tbody>
 		</table>		
 	</div>
 

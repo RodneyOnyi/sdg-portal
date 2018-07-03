@@ -1,0 +1,37 @@
+[{
+        "country": "Kenya",
+        "year2004": 3.5,
+        "year2005": 4.2
+    }, {
+        "country": "Uganda",
+        "year2004": 1.7,
+        "year2005": 3.1
+    }, {
+        "country": "Tanzania",
+        "year2004": 2.8,
+        "year2005": 2.9
+    }, {
+        "country": "Burudi",
+        "year2004": 2.6,
+        "year2005": 2.3
+    }, {
+        "country": "Rwanda",
+        "year2004": 1.4,
+        "year2005": 2.1
+    }, {
+        "country": "Somalia",
+        "year2004": 2.6,
+        "year2005": 4.9
+    }, {
+        "country": "Ethiopia",
+        "year2004": 6.4,
+        "year2005": 7.2
+    }, {
+        "country": "DRC",
+        "year2004": 8,
+        "year2005": 7.1
+    }, {
+        "country": "Malawi",
+        "year2004": 9.9,
+        "year2005": 10.1
+    }]
