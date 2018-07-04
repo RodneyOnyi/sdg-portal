@@ -1,37 +1,62 @@
-[{
-        "country": "Kenya",
-        "year2004": 3.5,
-        "year2005": 4.2
-    }, {
-        "country": "Uganda",
-        "year2004": 1.7,
-        "year2005": 3.1
-    }, {
-        "country": "Tanzania",
-        "year2004": 2.8,
-        "year2005": 2.9
-    }, {
-        "country": "Burudi",
-        "year2004": 2.6,
-        "year2005": 2.3
-    }, {
-        "country": "Rwanda",
-        "year2004": 1.4,
-        "year2005": 2.1
-    }, {
-        "country": "Somalia",
-        "year2004": 2.6,
-        "year2005": 4.9
-    }, {
-        "country": "Ethiopia",
-        "year2004": 6.4,
-        "year2005": 7.2
-    }, {
-        "country": "DRC",
-        "year2004": 8,
-        "year2005": 7.1
-    }, {
-        "country": "Malawi",
-        "year2004": 9.9,
-        "year2005": 10.1
-    }]
+[
+  {
+    "country": "Kenya",
+    "sdg1": 70,
+    "sdg2": 0,
+    "sdg3": 60,
+    "sdg4": 30,
+    "sdg5": 50,
+    "sdg6": 60,
+    "sdg7": 20,
+    "sdg8": 60,
+    "sdg9": 90,
+    "sdg10": 60,
+    "sdg11": 20,
+    "sdg12": 60,
+    "sdg13": 50,
+    "sdg14": 60,
+    "sdg15": 50,
+    "sdg16": 30,
+    "sdg17": 50
+  },
+  {
+    "country": "Uganda",
+    "sdg1": 50,
+    "sdg2": 10,
+    "sdg3": 20,
+    "sdg4": 30,
+    "sdg5": 50,
+    "sdg6": 60,
+    "sdg7": 20,
+    "sdg8": 60,
+    "sdg9": 90,
+    "sdg10": 60,
+    "sdg11": 20,
+    "sdg12": 60,
+    "sdg13": 50,
+    "sdg14": 60,
+    "sdg15": 50,
+    "sdg16": 30,
+    "sdg17": 50
+  },
+  {
+    "country": "Rwanda",
+    "sdg1": 70,
+    "sdg2": 90,
+    "sdg3": 20,
+    "sdg4": 30,
+    "sdg5": 50,
+    "sdg6": 60,
+    "sdg7": 20,
+    "sdg8": 60,
+    "sdg9": 90,
+    "sdg10": 60,
+    "sdg11": 20,
+    "sdg12": 60,
+    "sdg13": 50,
+    "sdg14": 60,
+    "sdg15": 50,
+    "sdg16": 30,
+    "sdg17": 50
+  }
+]

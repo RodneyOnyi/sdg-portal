@@ -1,64 +1,6 @@
-var response = [{
-      "country":"Kenya",
-      "sdg1":70,
-      "sdg2":10,
-      "sdg3":60,
-      "sdg4":30,
-      "sdg5":50,
-      "sdg6":60,
-      "sdg7":20,
-      "sdg8":60,
-      "sdg9":90,
-      "sdg10":60,
-      "sdg11":20,
-      "sdg12":60,
-      "sdg13":50,
-      "sdg14":60,
-      "sdg15":50,
-      "sdg16":30,
-      "sdg17":50
-     },
-     {
-       "country":"Uganda",
-       "sdg1":50,
-       "sdg2":10,
-       "sdg3":20,
-        "sdg4":30,
-        "sdg5":50,
-        "sdg6":60,
-        "sdg7":20,
-        "sdg8":60,
-        "sdg9":90,
-        "sdg10":60,
-        "sdg11":20,
-        "sdg12":60,
-        "sdg13":50,
-        "sdg14":60,
-        "sdg15":50,
-        "sdg16":30,
-        "sdg17":50
-    },{
-       "country":"Rwanda",
-       "sdg1":70,
-       "sdg2":90,
-       "sdg3":20,
-        "sdg4":30,
-        "sdg5":50,
-        "sdg6":60,
-        "sdg7":20,
-        "sdg8":60,
-        "sdg9":90,
-        "sdg10":60,
-        "sdg11":20,
-        "sdg12":60,
-        "sdg13":50,
-        "sdg14":60,
-        "sdg15":50,
-        "sdg16":30,
-        "sdg17":50
-    }];
-$(function() {
-    $.each(response, function(i, item) {
+var dataSourceUrl = "assets/data/portalData.json";
+$.getJSON(dataSourceUrl,function(data) {
+    $.each(data, function(i, item) {
         $('<tr>').append(
             $('<td>').text(item.country),
             $('<td>').css('background-color', (item.sdg1 >= 1 && item.sdg1 <= 33 ? '#EE3311':(item.sdg1 >= 34 && item.sdg1 <= 66 ? '#E5A30F':(item.sdg1 >= 67 && item.sdg1 <= 100 ? '#34E31A':'grey')))).text(item.sdg1),
