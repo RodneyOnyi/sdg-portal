@@ -2,7 +2,7 @@ var dataSourceUrl = "assets/data/scorecardData.json";
 $.getJSON(dataSourceUrl,function(data) {
     $.each(data, function(i, item) {
         $('<tr>').append(
-            $('<td>').css({"min-height": "10px","color":"black","font-weight":"bold","text-transform": "uppercase","font-size": "10px","font-family": "Roboto, Helvetica, Arial, sans-serif"}).text(item.country),
+            $('<td>').css({"min-width": "150px","max-width": "150px","color":"black","font-weight":"bold","text-transform": "uppercase","font-size": "10px","font-family": "Roboto, Helvetica, Arial, sans-serif"}).text(item.country),
             $('<td>').css('background-color', (item.sdg1 >= 1 && item.sdg1 <= 33 ? '#EE3311':(item.sdg1 >= 34 && item.sdg1 <= 66 ? '#E5A30F':(item.sdg1 >= 67 && item.sdg1 <= 100 ? '#34E31A':'grey')))).text(item.sdg1),
             $('<td>').css('background-color', (item.sdg2 >= 1 && item.sdg2 <= 33 ? '#EE3311':(item.sdg2 >= 34 && item.sdg2 <= 66 ? '#E5A30F':(item.sdg2 >= 67 && item.sdg2 <= 100 ? '#34E31A':'grey')))).text(item.sdg2),
             $('<td>').css('background-color', (item.sdg3 >= 1 && item.sdg3 <= 33 ? '#EE3311':(item.sdg3 >= 34 && item.sdg3 <= 66 ? '#E5A30F':(item.sdg3 >= 67 && item.sdg3 <= 100 ? '#34E31A':'grey')))).text(item.sdg3),

@@ -36,7 +36,8 @@
 		.sdg-header{
 			text-align: center;
 			margin-top: 10%;
-			min-width: 60px;
+			max-width: 80px;
+			min-width: 80px;
 			min-height: 77px;
 			vertical-align: top !important;
 			border-left: 1px solid #f0f0f0;
@@ -44,7 +45,8 @@
 		.sdg-header2{
 			text-align: center;
 			margin-top: 10%;
-			min-width: 60px;
+			max-width: 80px;
+			min-width: 80px;
 			min-height: 10px;
 			vertical-align: bottom !important;
 			border-left: 1px solid #f0f0f0;
@@ -54,7 +56,7 @@
 			font-size: 10px;
 		}
 		table{
-			margin-top: 1%;
+			/*margin-top: 1%;*/
 			border-spacing: 2px;
 		}
 		.sdg-f{
@@ -65,6 +67,10 @@
 			color: black;
 			border: 2px solid white;
 			height: 40px
+		}
+		tbody{
+			display: block;
+			margin-top: 10%
 		}
 	</style>
 </head>
@@ -81,8 +87,8 @@
 
     <!-- content come here     -->
     <br><br><br>
-    <div style="background-color: #fac12c !important; float: left; width: 15%; height: 499px ">
-    	<br><br>
+    <div style="background-color: #fac12c !important; float: left; width: 15%; height: 100%;position: fixed; ">
+    	<br><br><br><br><br>
     	<button class="div-africa" style=" background: #26bfe6;">Africa</button><br><br><br>
     	<button class="div-africa" style=" background: #f26a2d;">Central Africa</button><br><br><br>
     	<button class="div-africa" style="background: #c08e2d;">East Africa</button><br><br><br>
@@ -92,9 +98,9 @@
     </div>
 	<div style="float: right; width: 85%; height: 499px">
 		<table style="width: 80%" id="records_table">
-			<thead>
+			<thead style="background-color: grey;position: fixed; z-index: 1;display: block;">
 				<tr>
-					<th class="sdg-header"></th>
+					<th class="sdg-header" style="min-width: 150px !important;max-width: 150px !important;"></th>
 					<th class="sdg-header" style="color: #e5243b;"><p class="sdg-p">No Poverty</p></th>
 					<th class="sdg-header" style="color: #DDA63A;"><p class="sdg-p">Zero Hunger</p></th>
 					<th class="sdg-header" style="color: #4C9F38;"><p class="sdg-p">Good Health & Well-Being</p></th>
@@ -134,8 +140,7 @@
 					<th class="sdg-header2" style="color: #19486A;"><p>17</p></th>
 				</tr>
 			</thead>
-			<tbody>
-				
+			<tbody>		
 			</tbody>
 		</table>		
 	</div>
