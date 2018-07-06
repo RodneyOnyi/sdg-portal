@@ -1,0 +1,67 @@
+{
+    "name": "SDG 10",
+    "children": [{
+        "name": "Target 10.1",
+        "children": [{
+            "name": "10.1.1 Growth rates of household expenditure ",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 10.2",
+        "children": [{
+            "name": "10.2.1 People living below 50 % median income",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 10.3",
+        "children": [{
+            "name": "10.3.1 People how felt discrminated or harassed (% of population)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.4",
+        "children": [{
+            "name": "10.4.1 Labour share of GDP, comprising wages and social protection transfers",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.5",
+        "children": [{
+            "name": "10.5.1 Financial Soundness Indicators",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.6",
+        "children": [{
+            "name": "10.6.1 Voting rights in developing countries",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.7",
+        "children": [{
+            "name": "10.7.1 Recruitment cost borne by employee",
+            "size": 8833
+        },{
+            "name": "10.7.2 Number of countries that have implemented well-managed migration policies",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.a",
+        "children": [{
+            "name": "10.a.1 Tariff lines to import",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.b",
+        "children": [{
+            "name": "10.b.1 Total resource flow for development",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 10.c",
+        "children": [{
+            "name": "10.c.1 Remittance costs as a proportion of the amount remitted",
+            "size": 8833
+        }]
+    }]
+}

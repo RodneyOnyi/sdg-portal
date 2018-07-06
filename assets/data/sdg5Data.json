@@ -1,0 +1,76 @@
+{
+    "name": "SDG 5",
+    "children": [{
+        "name": "Target 5.1",
+        "children": [{
+            "name": "5.1.1 Legal frameworks for gender discrimination",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 5.2",
+        "children": [{
+            "name": "5.2.1 Domestic violence (%)",
+            "size": 122
+        },{
+            "name": "5.2.2 Sexual violence (%)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 5.3",
+        "children": [{
+            "name": "5.3.1 Child marriage (%)",
+            "size": 8833
+        },{
+            "name": "5.3.2 Female genital mutilation (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.4",
+        "children": [{
+            "name": "5.4.1 Unpaid domestic work, time",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.5",
+        "children": [{
+            "name": "5.5.1a  Women in elected government (%)",
+            "size": 8833
+        },{
+            "name": "5.5.2  Women in management (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.6",
+        "children": [{
+            "name": "5.6.1  Women making informed decisions on sexual health (%)",
+            "size": 8833
+        },{
+            "name": "5.6.2  Laws guarantee women access to sexual health care and education",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.a",
+        "children": [{
+            "name": "5.a.1a  Agricultural population with ownership rights (%)",
+            "size": 8833
+        },{
+            "name": "5.a.1b  Women owners of agricultural land (%)",
+            "size": 8833
+        },{
+            "name": "5.a.2  Women's equal rights to land ownership law",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.b",
+        "children": [{
+            "name": "5.b.1 Mobile telephone owners (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 5.c",
+        "children": [{
+            "name": "5.c.1 Public allocations for gender equality",
+            "size": 8833
+        }]
+    }]
+}

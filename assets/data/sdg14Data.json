@@ -1,0 +1,70 @@
+{
+    "name": "SDG 14",
+    "children": [{
+        "name": "Target 14.1",
+        "children": [{
+            "name": "14.1.1 Index of coastal eutrophication and floating plastic debris density",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 14.2",
+        "children": [{
+            "name": "14.2.1 National economic zones with ecosystem-based management (%)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 14.3",
+        "children": [{
+            "name": "14.3.1 Average marine acidity (pH) ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.4",
+        "children": [{
+            "name": "14.4.1 Proportion of fish stocks within biologically sustainable levels",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.5",
+        "children": [{
+            "name": "14.5.1 Coverage of protected areas in relation to marine areas ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.6",
+        "children": [{
+            "name": "14.6.1 Implementation of international agreements on fishing",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.7",
+        "children": [{
+            "name": "14.7.1 Sustainable fisheries (% GDP)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.8",
+        "children": [{
+            "name": "12.8.1 Sustainable development education",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.a",
+        "children": [{
+            "name": "14.a.1 Marine technology research (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.b",
+        "children": [{
+            "name": "14.b.1 Legal framework for small-scale fisheries ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 14.c",
+        "children": [{
+            "name": "14.c.1 Ratification of ILO Maritime Labour Convention of 2006",
+            "size": 8833
+        }]
+    }]
+}

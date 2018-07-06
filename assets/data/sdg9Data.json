@@ -1,0 +1,64 @@
+{
+    "name": "SDG 9",
+    "children": [{
+        "name": "Target 9.1",
+        "children": [{
+            "name": "9.1.1 Proportion of the rural population who live within 2 km of an all-season road",
+            "size": 122
+        },{
+            "name": "9.1.2 Passenger and freight volumes, by mode of transport",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 9.2",
+        "children": [{
+            "name": "9.2.1 Manufacturing value added as a proportion of GDP and per capita",
+            "size": 122
+        },{
+            "name": "9.2.2 Manufacturing employment as a proportion of total employment",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 9.3",
+        "children": [{
+            "name": "9.3.1 Proportion of small-scale industries in total industry value added",
+            "size": 8833
+        },{
+            "name": "9.3.2 Proportion of small-scale industries with a loan or line of credit",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 9.4",
+        "children": [{
+            "name": "9.4.1 CO2 emission per unit of value added",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 9.5",
+        "children": [{
+            "name": "9.5.1 Research and development expenditure as a proportion of GDP",
+            "size": 8833
+        },{
+            "name": "9.5.2 Researchers (in full-time equivalent) per million inhabitants",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 9.a",
+        "children": [{
+            "name": "9.a.1 Total official international support to infrastructure",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 9.b",
+        "children": [{
+            "name": "9.b.1 Proportion of medium and high-tech industry value added in total value added",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 9.c",
+        "children": [{
+            "name": "9.c.1 Proportion of population covered by a mobile network, by technology",
+            "size": 8833
+        }]
+    }]
+}

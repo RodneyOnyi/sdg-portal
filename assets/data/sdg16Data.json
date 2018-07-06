@@ -1,0 +1,109 @@
+{
+    "name": "SDG 16",
+    "children": [{
+        "name": "Target 15.1",
+        "children": [{
+            "name": "16.1.1 Number of victims of intentional homicide",
+            "size": 122
+        },{
+            "name": "16.1.2 Conflict-related deaths per 100,000 population",
+            "size": 122
+        },{
+            "name": "16.1.3 Proportion of population subjected to physical",
+            "size": 122
+        },{
+            "name": "16.1.4 Proportion of population that feel safe walking alone around the area they live",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 16.2",
+        "children": [{
+            "name": "16.2.1 Violent discipline of children",
+            "size": 122
+        },{
+            "name": "16.2.2 Human trafficking victims per 100,000",
+            "size": 122
+        },{
+            "name": "16.2.3 Youth sexual violence (%)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 16.3",
+        "children": [{
+            "name": "16.3.1 Reporting of violence (%)",
+            "size": 8833
+        },{
+            "name": "16.3.2 Unsentenced detainees as a proportion of overall prison population",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.4",
+        "children": [{
+            "name": "16.4.1 Illicit financial flows, total value",
+            "size": 8833
+        },{
+            "name": "16.4.2 Illicit arms, sourced (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.5",
+        "children": [{
+            "name": "16.5.1 Bribes to public officials by persons (%)",
+            "size": 8833
+        },{
+            "name": "16.5.2 Bribes to public officials by businesses (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.6",
+        "children": [{
+            "name": "16.6.1 Government expenditures as a proportion of original approved budget",
+            "size": 8833
+        },{
+            "name": "16.6.2 Satisfaction with public services (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.7",
+        "children": [{
+            "name": "16.7.1 Minority representation in public institutions",
+            "size": 8833
+        },{
+            "name": "16.7.2 Pereption of minority-inclusive decision making",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.8",
+        "children": [{
+            "name": "16.8.1 Developing country representation in international organizations",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.9",
+        "children": [{
+            "name": "16.9.1 Registered births (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.10",
+        "children": [{
+            "name": "16.10.1 Violence against journalists and human rights advocates",
+            "size": 8833
+        },{
+            "name": "16.10.2 Public access to information statutes",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.a",
+        "children": [{
+            "name": "16.a.1 Independent human rights institutions",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 16.b",
+        "children": [{
+            "name": "16.b.1 Unlawful discrimination (%)",
+            "size": 8833
+        }]
+    }]
+}

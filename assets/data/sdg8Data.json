@@ -1,0 +1,91 @@
+{
+    "name": "SDG 8",
+    "children": [{
+        "name": "Target 8.1",
+        "children": [{
+            "name": "8.1.1  Annual growth rate of real GDP per capita",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 8.2",
+        "children": [{
+            "name": "8.2.1  Annual growth rate of real GDP per employed person",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 8.3",
+        "children": [{
+            "name": "8.3.1  Proportion of informal employment in non‑agriculture employment",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.4",
+        "children": [{
+            "name": "8.4.1 Material footprint, material footprint per capita, ",
+            "size": 8833
+        },{
+            "name": "8.4.2 Domestic material consumption ( per capita and per GDP)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.5",
+        "children": [{
+            "name": "8.5.1  Gender gap pay",
+            "size": 8833
+        },{
+            "name": "8.5.2  Unemployment rate",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.6",
+        "children": [{
+            "name": "8.6.1  Youth not educated, employed or trained",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.7",
+        "children": [{
+            "name": "8.7.1  Child labour (absolute and % population)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.8",
+        "children": [{
+            "name": "8.8.1  Occupational fatal and non-fatal injuries (rate)",
+            "size": 8833
+        },{
+            "name": "8.8.2  Labour rights compliance",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.9",
+        "children": [{
+            "name": "8.9.1  Tourism direct GDP as a proportion of total GDP and in growth rate",
+            "size": 8833
+        },{
+            "name": "8.9.2 Proportion of jobs in sustainable tourism industries out of total tourism jobs",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.10",
+        "children": [{
+            "name": "8.10.1  Commercial bank and ATMs presence (per 100,000)",
+            "size": 8833
+        },{
+            "name": "8.10.2  Bank account or mobile money service holders (% population)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.a",
+        "children": [{
+            "name": "8.a.1  Aid for Trade commitments and disbursements",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 8.b",
+        "children": [{
+            "name": "8.b.1 Existence of a developed and operationalized national strategy for youth employment",
+            "size": 8833
+        }]
+    }]
+}

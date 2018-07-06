@@ -1,0 +1,46 @@
+{
+    "name": "SDG 7",
+    "children": [{
+        "name": "Target 7.1",
+        "children": [{
+            "name": "7.1.1 Access to electricity (% population)",
+            "size": 122
+        },{
+            "name": "7.1.2 Access to clean energy (% population)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 7.2",
+        "children": [{
+            "name": "7.2.1 Renewable energy consumption",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 7.3",
+        "children": [{
+            "name": "7.3.1 Energy intensity",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 7.4",
+        "children": [{
+            "name": "7.4.1 Change in water-use efficiency over time",
+            "size": 8833
+        },{
+            "name": "7.4.2 Level of water stress",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 7.a",
+        "children": [{
+            "name": "7.a.1  International flows to developing countries to clean energy",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 7.b",
+        "children": [{
+            "name": "7.b.1  Investments in energy efficiency as a percentage of GDP....",
+            "size": 8833
+        }]
+    }]
+}

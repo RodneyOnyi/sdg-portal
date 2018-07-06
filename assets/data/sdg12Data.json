@@ -1,0 +1,76 @@
+{
+    "name": "SDG 12",
+    "children": [{
+        "name": "Target 12.1",
+        "children": [{
+            "name": "12.1.1 National policy for sustainable consumption and production",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 12.2",
+        "children": [{
+            "name": "12.2.1 Material footprint",
+            "size": 122
+        },{
+            "name": "12.2.2 Domestic material consumption",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 12.3",
+        "children": [{
+            "name": "12.3.1 Global food loss index",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.4",
+        "children": [{
+            "name": "12.4.1 Party to Multilateral Environmental Agreements,",
+            "size": 8833
+        },{
+            "name": "12.4.2 Hazardous waste,",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.5",
+        "children": [{
+            "name": "12.5.1 National recycling rate, tons of material recycled",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.6",
+        "children": [{
+            "name": "12.6.1 Number of companies publishing sustainability reports",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.7",
+        "children": [{
+            "name": "12.7.1 Number of countries implementing sustainable public procurement",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.8",
+        "children": [{
+            "name": "12.8.1 Sustainable development education",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.a",
+        "children": [{
+            "name": "12.a.1 ODA for R&D in sustainable consumption and production",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.b",
+        "children": [{
+            "name": "12.b.1 Sustainable tourism national strategies ",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 12.c",
+        "children": [{
+            "name": "12.c.1 Fossil fuel subsidies per GDP ",
+            "size": 8833
+        }]
+    }]
+}

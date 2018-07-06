@@ -1,0 +1,142 @@
+{
+    "name": "SDG 3",
+    "children": [{
+        "name": "Target 3.1",
+        "children": [{
+            "name": "3.1.1 Maternal mortality ratio",
+            "size": 122
+        }, {
+            "name": "3.1.2 Proportion of births attended by skilled health personnel",
+            "size": 1759
+        }]
+    }, {
+        "name": "Target 3.2",
+        "children": [{
+            "name": "3.2.1 Under-five mortality rate",
+            "size": 122
+        },{
+            "name": "3.2.2 Neonatal mortality rate",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 3.3",
+        "children": [{
+            "name": "3.3.1 New HIV Infections (per 1,000 uninfected)",
+            "size": 8833
+        },{
+            "name": "3.3.2 Tuberculosis Incidence (per 100,000)",
+            "size": 8833
+        },{
+            "name": "3.3.3 Malaria Incidence (per 1,000)",
+            "size": 8833
+        },{
+            "name": "3.3.4 Hepatitis B incidence (oer 100,000)",
+            "size": 8833
+        },{
+            "name": "3.3.5 Requiring intervention against NTDs",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 3.4",
+        "children": [{
+            "name": "3.4.1 Death rate from NCDs (per 100,000)",
+            "size": 8833
+        }, {
+            "name": "3.4.2 Suicide Mortality (per 100,000)",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.5",
+        "children": [{
+            "name": "3.5.1 Coverage of treatment interventions for substance use disorders",
+            "size": 8833
+        }, {
+            "name": "3.5.2 Alcoholic consumption (in liters)",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.6",
+        "children": [{
+            "name": "3.6.1 Death rate due to road traffic injuries",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 3.7",
+        "children": [{
+            "name": "3.7.1 Family planning needs satisfied (%)",
+            "size": 8833
+        }, {
+            "name": "3.7.2 Adolescent birth rate (per 1,000 women aged 10-14)",
+            "size": 1732
+        }, {
+            "name": "3.7.2 Adolescent birth rate (per 1,000 women aged 15-19)",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.8",
+        "children": [{
+            "name": "3.8.1 Coverage of essential health services",
+            "size": 8833
+        }, {
+            "name": "3.8.2 Proportion of population with large household expenditures",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.9",
+        "children": [{
+            "name": "3.9.1 Mortality, air pollution",
+            "size": 8833
+        }, {
+            "name": "3.9.2 Mortality, unsafe water (per 100,000)",
+            "size": 1732
+        }, {
+            "name": "3.9.3 Mortality, unintentional poisoning (per 100,000)",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.a",
+        "children": [{
+            "name": "3.a.1 Tobacco users 15+ years (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 3.b",
+        "children": [{
+            "name": "3.b.1 Coverage of DTP containing vaccine (3rd dose)",
+            "size": 8833
+        }, {
+            "name": "3.b.1 Coverage of Measles containing vaccine (2nd dose)",
+            "size": 1732
+        }, {
+            "name": "3.b.1 Coverage of HPV vaccine (last dose in the schedule)",
+            "size": 1732
+        }, {
+            "name": "3.b.2 ODA for medical research and basic health (in USD)",
+            "size": 1732
+        }, {
+            "name": "3.b.3 Proportion of health facilities that have a core set....",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.c",
+        "children": [{
+            "name": "3.c.1 Physician density and distribution",
+            "size": 8833
+        }, {
+            "name": "3.c.1 Nursing and midwifery personnel density and distribution",
+            "size": 1732
+        }, {
+            "name": "3.c.1 Dentistry personnel density and distribution",
+            "size": 1732
+        }, {
+            "name": "3.c.1 Pharmaceutical personnel density and distribution",
+            "size": 1732
+        }]
+    },{
+        "name": "Target 3.d",
+        "children": [{
+            "name": "3.d.1 IHR capacity and health emergency preparedness",
+            "size": 8833
+        }]
+    }]
+}

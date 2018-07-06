@@ -1,0 +1,145 @@
+{
+    "name": "SDG 4",
+    "children": [{
+        "name": "Target 4.1",
+        "children": [{
+            "name": "4.1.1b(i) Primary students proficient in reading (%)",
+            "size": 122
+        }, {
+            "name": "4.1.1b(ii) Primary students proficient in mathematics (%)",
+            "size": 1759
+        }, {
+            "name": "4.1.1c(i) Lower secondary students proficient in mathematics (%)",
+            "size": 1759
+        }, {
+            "name": "4.1.1c(ii) Lower secondary students proficient in mathematics (%)",
+            "size": 1759
+        }]
+    }, {
+        "name": "Target 4.2",
+        "children": [{
+            "name": "4.2.1 Children under 5 developmentally on track",
+            "size": 122
+        },{
+            "name": "4.2.2 Organized learning one year before official primary entry age (%)",
+            "size": 122
+        }]
+    }, {
+        "name": "Target 4.3",
+        "children": [{
+            "name": "4.3.1 Youth and adults (age 15-24) in formal and non-formal education and training (%)",
+            "size": 8833
+        },{
+            "name": "4.3.1 Youth and adults (age 25-64) in formal and non-formal education and training (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.4",
+        "children": [{
+            "name": "4.4.1 Youth and adults (age 15+) with ICT skills (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.5",
+        "children": [{
+            "name": "4.5.1  Parity indices for all education indicators on this list that can be disaggregated",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.6",
+        "children": [{
+            "name": "4.6.1  Percentage of population in a given age group achieving at least a fixed level of ..",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.7",
+        "children": [{
+            "name": "4.7.1  Extent to which (i) global citizenship education and (ii) education for sustainable..",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.a",
+        "children": [{
+            "name": "4.a.1 Primary schools with electricity (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with internet (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with computers (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with adapted disability infrastructure and materials (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with basic drinking water (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with single-sex bathrooms (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Primary schools with basic handwashing facilities (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with electricity (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with internet (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with computers (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with adapted disability infrastructure and materials (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with basic drinking water (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with single-sex bathrooms (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Lower secondary schools with basic handwashing facilities (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with internet (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with computers (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with adapted disability infrastructure and materials (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with basic drinking water (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with single-sex bathrooms (%)",
+            "size": 8833
+        },{
+            "name": "4.a.1 Upper secondary schools with basic handwashing facilities (%)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.b",
+        "children": [{
+            "name": "4.b.1 Total ODA for scholarships (in USD)",
+            "size": 8833
+        }]
+    },{
+        "name": "Target 4.c",
+        "children": [{
+            "name": "4.c.1 Trained pre-primary teachers (%)",
+            "size": 8833
+        },{
+            "name": "4.c.1 Trained primary teachers (%)",
+            "size": 8833
+        },{
+            "name": "4.c.1 Trained lower secondary teachers (%)",
+            "size": 8833
+        },{
+            "name": "4.c.1 Trained upper secondary teachers (%)",
+            "size": 8833
+        }]
+    }]
+}
