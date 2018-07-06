@@ -1,10 +1,4 @@
-function loadRegion(n) {
-        // Default selected levels
-        // $(".SAF").show();
-        // $(".NAF").show();
-        // $(".WAF").show();
-        // $(".EAF").show();
-        // $(".CAF").show();           
+function loadRegion(n) {       
 
             if (n==2) {
                 $(".SAF").hide();
