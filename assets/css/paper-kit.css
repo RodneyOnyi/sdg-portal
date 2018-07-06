@@ -1749,6 +1749,16 @@ textarea.form-control {
 .section-sdg17{
   background-color: #19486A;
 }
+
+/*Preloader*/
+.preloader {
+        width: 100%;
+        height: 100%;
+        background: url('../img/logos/logosdg.gif') center no-repeat #FFF;
+        z-index: 99999;
+        position: fixed;
+}
+
 .section-image,
 .section-gold,
 .section-dark {
