@@ -1,7 +1,65 @@
+function loadRegion(n) {
+        // Default selected levels
+        // $(".SAF").show();
+        // $(".NAF").show();
+        // $(".WAF").show();
+        // $(".EAF").show();
+        // $(".CAF").show();           
+
+            if (n==2) {
+                $(".SAF").hide();
+                $(".NAF").hide();
+                $(".WAF").hide();
+                $(".EAF").hide();
+                $(".CAF").show();
+            }
+            else if (n==3) {
+                $(".SAF").hide();
+                $(".NAF").hide();
+                $(".WAF").hide();
+                $(".EAF").show();
+                $(".CAF").hide();
+            }
+            else if (n==4) {
+                $(".SAF").hide();
+                $(".NAF").show();
+                $(".WAF").hide();
+                $(".EAF").hide();
+                $(".CAF").hide();
+            }
+            else if (n==5) {
+                $(".SAF").show();
+                $(".NAF").hide();
+                $(".WAF").hide();
+                $(".EAF").hide();
+                $(".CAF").hide();
+            }
+            else if (n==6) {
+                $(".SAF").hide();
+                $(".NAF").hide();
+                $(".WAF").show();
+                $(".EAF").hide();
+                $(".CAF").hide();
+            }
+            else if (n==1) {
+                $(".SAF").show();
+                $(".NAF").show();
+                $(".WAF").show();
+                $(".EAF").show();
+                $(".CAF").show();
+            }
+            else{
+                $(".SAF").show();
+                $(".NAF").show();
+                $(".WAF").show();
+                $(".EAF").show();
+                $(".CAF").show();
+            }
+        }
 var dataSourceUrl = "assets/data/scorecardData.json";
 $.getJSON(dataSourceUrl,function(data) {
     $.each(data, function(i, item) {
-        $('<tr>').append(
+        $('<tr>').addClass(item.region).append(
             $('<td>').css({"min-width": "90px","max-width": "90px","color":"black","font-weight":"bold","text-transform": "uppercase","font-size": "10px","font-family": "Roboto, Helvetica, Arial, sans-serif"}).text(item.country),
             $('<td>').css('background-color', (item.sdg1 >= 1 && item.sdg1 <= 33 ? '#EE3311':(item.sdg1 >= 34 && item.sdg1 <= 66 ? '#E5A30F':(item.sdg1 >= 67 && item.sdg1 <= 100 ? '#34E31A':'grey')))).text(item.sdg1),
             $('<td>').css('background-color', (item.sdg2 >= 1 && item.sdg2 <= 33 ? '#EE3311':(item.sdg2 >= 34 && item.sdg2 <= 66 ? '#E5A30F':(item.sdg2 >= 67 && item.sdg2 <= 100 ? '#34E31A':'grey')))).text(item.sdg2),
@@ -21,8 +79,5 @@ $.getJSON(dataSourceUrl,function(data) {
             $('<td>').css('background-color', (item.sdg16>= 1 && item.sdg16<= 33 ? '#EE3311':(item.sdg16>= 34 && item.sdg16<= 66 ? '#E5A30F':(item.sdg16>= 67 && item.sdg16<= 100 ? '#34E31A':'grey')))).text(item.sdg16),
             $('<td>').css('background-color', (item.sdg17>= 1 && item.sdg17<= 33 ? '#EE3311':(item.sdg17>= 34 && item.sdg17<= 66 ? '#E5A30F':(item.sdg17>= 67 && item.sdg17<= 100 ? '#34E31A':'grey')))).text(item.sdg17),
         ).appendTo('#records_table');
-        
-        // $('#records_table').append($tr);
-        //console.log($tr.wrap('<p>').html());
     });
 });
