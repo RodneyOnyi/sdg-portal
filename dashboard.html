@@ -45,7 +45,7 @@
 			min-width: 61px;
 			min-height: 77px;
 			vertical-align: top !important;
-			border-left: 2px solid #f0f0f0;
+			border-left: 3px solid #f0f0f0;
 		}
 		.sdg-header2{
 			text-align: center;
@@ -54,7 +54,7 @@
 			min-width: 61px;
 			min-height: 10px;
 			vertical-align: bottom !important;
-			border-left: 2px solid #f0f0f0;
+			border-left: 3px solid #f0f0f0;
 		}
 		.sdg-p{
 			font-weight: bold;
@@ -63,6 +63,9 @@
 		table{
 			/*margin-top: 1%;*/
 			border-spacing: 3px;
+			display: block;
+			height: 500px;
+			overflow-y: scroll
 		}
 		.sdg-f{
 			vertical-align: bottom !important;
@@ -77,24 +80,18 @@
 		}
 		tbody{
 			display: block;
-			margin-top: 9%
+			margin-top: 9%;
 		}
 	</style>
 </head>
 <body>
+	<!-- Preloader -->
 	<div class="preloader"></div>
-<!--    navbar come here          -->
- <!-- <div w3-include-html="header.html" style="z-index: 1"></div> -->
- <!-- <br><br> -->
-<!-- end navbar  -->
-<!-- <div class="wrapper"> -->
+	<!-- Preloader -->
 
     <!-- content come here     -->
-    <!-- <br><br><br> -->
-    <div style="min-height: 9.8%">
-    	<div w3-include-html="header.html" style="z-index: 1"></div>
-    </div>
-    <div style="background-color: #fac12c !important; float: left; width: 12%; height: 100%;position: fixed; margin-top: 9.8%;">
+    <div w3-include-html="header.html" style="min-height: 9.8%;min-height: 9.8%;"></div>
+    <div style="background-color: #fac12c !important; float: left; min-width: 12%; max-width: 12%;height: 74%;position: fixed; margin-top: 9.8%;">
     	<br><br><br><br><br>
     	<button onclick="loadRegion(1)" class="div-africa" style=" background: #26bfe6;">Africa</button><br><br><br>
     	<button onclick="loadRegion(2)" class="div-africa" style=" background: #f26a2d;">Central Africa</button><br><br><br>
@@ -103,8 +100,8 @@
     	<button onclick="loadRegion(5)" class="div-africa" style="background: #e6223d;">Southern Africa</button><br><br><br>
     	<button onclick="loadRegion(6)" class="div-africa" style="background: #df1767;">West Africa</button>
     </div>
-	<div style="float: right; width: 88%; height: 100%; margin-top: 9.8%;">
-		<table style="width: 88%" id="records_table">
+	<div style="margin-left: 12%; height: 75%; margin-top: 9.8%;">
+		<table>
 			<thead style="background-color: white;position: fixed; z-index: 1;display: block;">
 				<tr>
 					<th class="sdg-header" style="min-width: 90px !important;max-width: 90px !important;"></th>
@@ -147,15 +144,11 @@
 					<th class="sdg-header2" style="color: #19486A;"><p>17</p></th>
 				</tr>
 			</thead>
-			<tbody>		
+			<tbody  id="records_table">		
 			</tbody>
 		</table>		
 	</div>
-
-
-<!-- </div> -->
-
-
+	<div w3-include-html="footer.html"></div>
 
 <!-- Modal Bodies come here -->
 
