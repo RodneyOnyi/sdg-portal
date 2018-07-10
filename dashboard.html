@@ -32,8 +32,12 @@
 		.div-africa{
 			float: right; 
 			border-radius: 8px 0px 0px 0px;
-			width: 150px;
-			height: 50px; 
+			/*min-width: 150px;*/
+			min-height: 50px; 
+			/*max-width: 150px;*/
+			max-height: 50px;
+			/*min-width: 12%; 
+			max-width: 12%;*/ 
 			box-shadow: -1px 2px 4px #212020;
 			color: white;
 			font-weight: bold;
@@ -91,7 +95,7 @@
 
     <!-- content come here     -->
     <div w3-include-html="header.html" style="min-height: 9.8%;min-height: 9.8%;"></div>
-    <div style="background-color: #fac12c !important; float: left; min-width: 12%; max-width: 12%;height: 74%;position: fixed; margin-top: 9.8%;">
+    <div style="background-color: #fac12c !important; float: left; min-width: 12%; max-width: 12%;margin-top: 90px;">
     	<br><br><br><br><br>
     	<button onclick="loadRegion(1)" class="div-africa" style=" background: #26bfe6;">Africa</button><br><br><br>
     	<button onclick="loadRegion(2)" class="div-africa" style=" background: #f26a2d;">Central Africa</button><br><br><br>
@@ -99,10 +103,11 @@
     	<button onclick="loadRegion(4)" class="div-africa" style="background: #4da046;">North Africa</button><br><br><br>
     	<button onclick="loadRegion(5)" class="div-africa" style="background: #e6223d;">Southern Africa</button><br><br><br>
     	<button onclick="loadRegion(6)" class="div-africa" style="background: #df1767;">West Africa</button>
+    	<br><br><br>
     </div>
-	<div style="margin-left: 12%; height: 75%; margin-top: 9.8%;">
+	<div style="min-width: 88%; max-width: 88%; margin-top: 90px;float: right;">
 		<table>
-			<thead style="background-color: white;position: fixed; z-index: 1;display: block;">
+			<thead style="background-color: white;position: fixed; z-index: 1;display: block;top: 90px;">
 				<tr>
 					<th class="sdg-header" style="min-width: 90px !important;max-width: 90px !important;"></th>
 					<th class="sdg-header" style="color: #e5243b;"><p class="sdg-p">No Poverty</p></th>
