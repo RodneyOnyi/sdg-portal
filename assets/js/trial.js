@@ -3,151 +3,75 @@
 TODO:
 - Check data labels after drilling. Label rank? New positions?
 */
+var dataSourceURL=null;
+function updateAfricaMap(n){
+    if (n==411) {
+        $('#myModal').modal('hide');
+        //get the data source and update var. This is the data that loads.
+        dataSourceURL='assets/data/trial.json';
+        loadMap(1);
+
+    }
+    else if (412) {
+        $('#myModal').modal('hide');
+        //get the data source and update var. This is the data that loads.
+        dataSourceURL='assets/data/trial.json';
+        loadMap(1);
+    }
+}
 $( document ).ready(function() {
+    dataSourceURL='assets/data/trialNoData.json';
     loadMap(1);
 });
 
 function loadMap(n){
 if(n==1){
-    var data = Highcharts.geojson(Highcharts.maps['custom/africa']),
-    separators = Highcharts.geojson(Highcharts.maps['custom/africa'], 'mapline'),
-    // Some responsiveness
-    small = $('#container').width() < 400;
+    var data = $.getJSON(dataSourceURL,function(data){ 
 
-    // Set drilldown pointers
-    $.each(data, function (i) {
-        this.drilldown = this.properties['hc-key'];
-        this.value = i; // Non-random bogus data
-    });
+// Create the chart
+Highcharts.mapChart('container', {
+    chart: {
+        map: 'custom/africa'
+    },
 
-    // Instantiate the map
-    Highcharts.mapChart('container', {
-        chart: {
-            events: {
-                drilldown: function (e) {
-                    if (!e.seriesOptions) {
-                        var chart = this,
-                            mapKey = 'custom/africa/' + e.point.drilldown + '-all',
-                            // Handle error, the timeout is cleared on success
-                            fail = setTimeout(function () {
-                                if (!Highcharts.maps[mapKey]) {
-                                    chart.showLoading('<i class="icon-frown"></i> Failed loading ' + e.point.name);
-                                    fail = setTimeout(function () {
-                                        chart.hideLoading();
-                                    }, 1000);
-                                }
-                            }, 3000);
+    title: {
+        text: 'Africa'
+    },
 
-                        // Show the spinner
-                        chart.showLoading('<i class="icon-spinner icon-spin icon-3x"></i>'); // Font Awesome spinner
+    // subtitle: {
+    //     text: 'Source map: <a href="http://code.highcharts.com/mapdata/custom/africa.js">Africa</a>'
+    // },
 
-                        // Load the drilldown map
-                        $.getScript('https://code.highcharts.com/mapdata/' + mapKey + '.js', function () {
-
-                            data = Highcharts.geojson(Highcharts.maps[mapKey]);
-
-                            // Set a non-random bogus value
-                            $.each(data, function (i) {
-                                this.value = i;
-                            });
-
-                            // Hide loading and add series
-                            chart.hideLoading();
-                            clearTimeout(fail);
-                            chart.addSeriesAsDrilldown(e.point, {
-                                name: e.point.name,
-                                data: data,
-                                dataLabels: {
-                                    enabled: true,
-                                    format: '{point.name}'
-                                }
-                            });
-                        });
-                    }
-
-                    this.setTitle(null, { text: e.point.name });
-                },
-                drillup: function () {
-                    this.setTitle(null, { text: '' });
-                }
-            }
-        },
-
-        title: {
-            text: 'Africa'
-        },
-
-        subtitle: {
-            text: '',
-            floating: true,
-            align: 'right',
-            y: 50,
-            style: {
-                fontSize: '16px'
-            }
-        },
-
-        legend: small ? {} : {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle'
-        },
-
-        colorAxis: {
-            min: 0,
-            minColor: '#E6E7E8',
-            maxColor: '#e5243b'
-        },
-
-        mapNavigation: {
-            enabled: true,
-            buttonOptions: {
-                verticalAlign: 'bottom'
-            }
-        },
-
-        plotOptions: {
-            map: {
-                states: {
-                    hover: {
-                        color: '#EEDD66'
-                    }
-                }
-            }
-        },
-
-        series: [{
-            data: data,
-            name: 'Africa',
-            dataLabels: {
-                enabled: true,
-                format: '{point.properties.postal-code}'
-            }
-        }, {
-            type: 'mapline',
-            data: separators,
-            color: 'silver',
-            enableMouseTracking: false,
-            animation: {
-                duration: 500
-            }
-        }],
-
-        drilldown: {
-            activeDataLabelStyle: {
-                color: '#FFFFFF',
-                textDecoration: 'none',
-                textOutline: '1px #000000'
-            },
-            drillUpButton: {
-                relativeTo: 'spacingBox',
-                position: {
-                    x: 0,
-                    y: 60
-                }
-            }
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
         }
-    });
+    },
+
+    colorAxis: {
+        min: 0,
+        minColor: '#E6E7E8',
+        maxColor: '#e5243b'
+    },
+
+    series: [{
+        data: data,
+        mapData: Highcharts.maps['custom/africa'],
+        joinBy: ['iso-a2', 'code'],
+        name: 'Random data',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+});
 }
 if(n==2){
  var chart = AmCharts.makeChart("container", {
