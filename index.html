@@ -31,6 +31,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/js/master.js"></script>
 
+    <!-- Highmaps Links -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/africa.js"></script>
+
+
 </head>
     <div class="preloader"></div>
      <div w3-include-html="header.html"></div>
@@ -39,7 +45,8 @@
             <div class="filter"></div>
     		<div class="content-center">
     			<div class="container">
-    				<div class="title-brand">
+                    <div id="container" style="float: right;height: 500px; min-width: 90%; max-width: 90%; margin: 0 auto;margin-top: 70px;"></div> 
+    				<!-- <div class="title-brand">
     					<h1 class="presentation-title">Data Portal</h1>
     					<div class="fog-low">
     					</div>
@@ -48,13 +55,13 @@
     				</div>
 
     				<h2 class="presentation-subtitle text-center">Data Driven Visualization </h2><br>
-                    <a  href="location.html" style="margin-left: 40%" class="btn btn-danger btn-round">Explore</a>
+                    <a  href="location.html" style="margin-left: 40%" class="btn btn-danger btn-round">Explore</a> -->
     			</div>
     		</div>
             <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">
 
             </div>
-    		<h6 class="category category-absolute">Connecting Ideas | Strengthening Capacity | Innovation Solutions</h6>
+    		<!-- <h6 class="category category-absolute">Connecting Ideas | Strengthening Capacity | Innovation Solutions</h6> -->
     	</div>
 	</div>
 </body>
@@ -80,5 +87,6 @@
 <script>
        w3.includeHTML();
 </script>
+<script type="text/javascript" src="assets/js/countryProfile.js"></script>
 
 </html>
