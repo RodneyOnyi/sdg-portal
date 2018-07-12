@@ -20,7 +20,7 @@ function updateAfricaMap(n){
     }
 }
 $( document ).ready(function() {
-    dataSourceURL='assets/data/trialNoData.json';
+    dataSourceURL='assets/data/trial.json';
     loadMap(1);
 });
 
@@ -44,6 +44,20 @@ Highcharts.mapChart('container', {
     exporting:{
         enabled:false
     },
+    plotOptions: {
+        series: {
+            point: {
+                events: {
+                    click: function (event) {
+                        $('#myModal').modal('show');
+                        // alert("Hey");
+                        // location.href = 'https://en.wikipedia.org/wiki/' + this.name;
+                        // location.href = 'http://localhost/sdgportal/explore.html';
+                    }
+                }
+            }
+        }
+    },
 
     // subtitle: {
     //     text: 'Source map: <a href="http://code.highcharts.com/mapdata/custom/africa.js">Africa</a>'
@@ -58,8 +72,8 @@ Highcharts.mapChart('container', {
 
     colorAxis: {
         min: 0,
-        minColor: '#E6E7E8',
-        maxColor: '#e5243b'
+        minColor: '#f9db8e',
+        maxColor: '#f9db8e'
     },
 
     series: [{
@@ -67,14 +81,15 @@ Highcharts.mapChart('container', {
         mapData: Highcharts.maps['custom/africa'],
         joinBy: ['iso-a2', 'code'],
         name: 'Random data',
+        cursor: 'pointer',
         states: {
             hover: {
-                color: '#BADA55'
+                color: '#B22222'
             }
         },
         dataLabels: {
-            enabled: true,
-            format: '{point.name}'
+            // enabled: true,
+            // format: '{point.name}'
         }
     }]
 });

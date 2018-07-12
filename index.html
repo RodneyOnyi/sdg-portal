@@ -13,11 +13,11 @@
     <meta name="viewport" content="width=device-width" />
 
     <!-- Bootstrap core CSS     -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
 
-	<!--  CSS for Demo Purpose, don't include it in your project     -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
 
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
@@ -38,14 +38,14 @@
 
 
 </head>
-    <div class="preloader"></div>
-     <div w3-include-html="header.html"></div>
-    <div class="wrapper">
-        <div class="page-header section-dark" style="background-image: url('assets/img/bg/bg.png')">
-            <div class="filter"></div>
-    		<div class="content-center">
-    			<div class="container">
-                    <div id="container" style="float: right;height: 500px; min-width: 90%; max-width: 90%; margin: 0 auto;margin-top: 70px;"></div> 
+<div class="preloader"></div>
+<div w3-include-html="header.html"></div>
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/bg/bg.png')">
+        <div class="filter"></div>
+        <div class="content-center">
+         <div class="container">
+            <div id="container" style="float: right;height: 500px; min-width: 90%; max-width: 90%; margin: 0 auto;margin-top: 70px;"></div> 
     				<!-- <div class="title-brand">
     					<h1 class="presentation-title">Data Portal</h1>
     					<div class="fog-low">
@@ -56,14 +56,39 @@
 
     				<h2 class="presentation-subtitle text-center">Data Driven Visualization </h2><br>
                     <a  href="location.html" style="margin-left: 40%" class="btn btn-danger btn-round">Explore</a> -->
-    			</div>
-    		</div>
+                </div>
+            </div>
             <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">
 
             </div>
-    		<!-- <h6 class="category category-absolute">Connecting Ideas | Strengthening Capacity | Innovation Solutions</h6> -->
-    	</div>
-	</div>
+            <!-- <h6 class="category category-absolute">Connecting Ideas | Strengthening Capacity | Innovation Solutions</h6> -->
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                </div>
+                <div class="modal-footer">
+                    <div class="left-side">
+                        <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Never mind</button>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="right-side">
+                        <button type="button" class="btn btn-danger btn-link">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
 </body>
 
 <!-- Core JS Files -->
@@ -85,7 +110,7 @@
 <!--  Paper Kit Initialization and functons -->
 <script src="assets/js/paper-kit.js?v=2.1.0"></script>
 <script>
-       w3.includeHTML();
+ w3.includeHTML();
 </script>
 <script type="text/javascript" src="assets/js/countryProfile.js"></script>
 
