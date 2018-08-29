@@ -13,7 +13,7 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
 	<link href="assets/css/demo.css" rel="stylesheet" />
-	<link href="../assets/css/master.css" rel="stylesheet" />
+	<link href="assets/css/master.css" rel="stylesheet" />
 
 	<!--     Fonts and icons     -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
@@ -43,10 +43,10 @@
 		}
 		.sdg-header{
 			text-align: center;
-			margin-top: 10%;
-			max-width: 61px;
-			min-width: 61px;
-			min-height: 77px;
+			/*margin-top: 10%;*/
+			/*max-width: 55px;*/
+			/*min-width: 55px;*/
+			/*min-height: 77px;*/
 			vertical-align: top !important;
 			border-left: 3px solid #f0f0f0;
 		}
@@ -59,13 +59,14 @@
 			vertical-align: bottom !important;
 			border-left: 3px solid #f0f0f0;
 		}
-		.sdg-p, p{
+		.sdg-p{
 			font-weight: bold;
-			font-size: 10px;
+			font-size: 7.5px;
 			/* transform:translate(25px, 51px)  rotate(270deg); */
 			/* margin-left: -90px; */
-			text-align: left;
+			text-align: center;
 			/* width: 50px; */
+
 
 
 			-moz-transform:rotate(-90deg);
@@ -84,19 +85,31 @@
 			overflow-y: scroll
 		}
 		.sdg-f{
-			vertical-align: bottom !important;
+			font-weight: bold;
+			font-size: 7.5px;
+			-moz-transform:rotate(-90deg);
+			-moz-transform-origin: top left;
+			-webkit-transform: rotate(-90deg);
+			-webkit-transform-origin: top left;
+			-o-transform: rotate(-90deg);
+			-o-transform-origin:  top left;
+			text-align: left;
+			margin-top: 30px;
 		}
 		td{
-			text-align: center;
+			text-align: right;
 			color: black;
 			border: 3px solid white;
 			max-width: 61px;
 			min-width: 61px;
-			border-radius: 12px 12px 12px 12px;
+			/*border-radius: 12px 12px 12px 12px;*/
 		}
 		tbody{
 			display: block;
 			margin-top: 9%;
+		}
+		table tr th{
+			width: 4.5% !important;
 		}
 	</style>
 </head>
@@ -106,25 +119,24 @@
 	<!-- Preloader -->
 
     <!-- content come here     -->
-    <div w3-include-html="header.html" style="min-height: 9.8%;min-height: 9.8%;"></div>
+    <!--<div w3-include-html="header.html" style="min-height: 9.8%;min-height: 9.8%;"></div>-->
     <div style="background-color: #fac12c !important; float: left; min-width: 12%; max-width: 12%;margin-top: 90px;">
-    	<br><br><br><br><br>
     	<button onclick="loadRegion(1)" class="div-africa" style=" background: #26bfe6;">Africa</button><br><br><br>
     	<button onclick="loadRegion(2)" class="div-africa" style=" background: #f26a2d;">Central Africa</button><br><br><br>
     	<button onclick="loadRegion(3)" class="div-africa" style="background: #c08e2d;">East Africa</button><br><br><br>
     	<button onclick="loadRegion(4)" class="div-africa" style="background: #4da046;">North Africa</button><br><br><br>
     	<button onclick="loadRegion(5)" class="div-africa" style="background: #e6223d;">Southern Africa</button><br><br><br>
     	<button onclick="loadRegion(6)" class="div-africa" style="background: #df1767;">West Africa</button>
-    	<br><br><br>
     </div>
-	<div style="min-width: 88%; max-width: 88%; margin-top: 90px;float: right;">
-		<table>
-			<thead style="background-color: white;position: fixed; z-index: 1;display: block;top: 110px;height:150px;">
+	<div style="width: 88%; margin-top: 90px;float: right;background-color: blue" class="table-responsive">
+		<table class="table">
+			<!--<thead style="background-color: white;position: fixed; z-index: 1;display: block;top: 90px;height:100px;">-->
+			<thead style="background-color: white;position: fixed; z-index: 1;display: block;top: 90px;">
 				<tr>
 					<th class="sdg-header" style="min-width: 90px !important;max-width: 90px !important;"></th>
 					<th class="sdg-header" style="color: #e5243b;"><p class="sdg-p">NO POVERT</p></th>
 					<th class="sdg-header" style="color: #DDA63A;"><p class="sdg-p">ZERO HUNGER</p></th>
-					<th class="sdg-header" style="color: #4C9F38;"><p class="sdg-p">GOOD HEARTH AND WELL-BEING</p></th>
+					<th class="sdg-header" style="color: #4C9F38;"><p class="sdg-p">GOOD HEALTH AND WELL-BEING</p></th>
 					<th class="sdg-header" style="color: #C5192D;"><p class="sdg-p">QUALITY EDUCATION</p></th>
 					<th class="sdg-header" style="color: #FF3A21;"><p class="sdg-p">GENDER EQUALITY</p></th>
 					<th class="sdg-header" style="color: #26BDE2;"><p class="sdg-p">CLEAN WATER AND SANITATION</p></th>
@@ -140,29 +152,29 @@
 					<th class="sdg-header" style="color: #00689D;"><p class="sdg-p">PEACE, JUSTICE AND STRONG INSTITIONS</p></th>
 					<th class="sdg-header" style="color: #19486A;"><p class="sdg-p">PARTNERSHIP FOR THE GOALS</p></th>
 				</tr>
-				<!-- <tr>
-					<th class="sdg-header2"></th>
-					<th class="sdg-header2" style="color: #e5243b;"><p class="sdg-f">1</p></th>
-					<th class="sdg-header2" style="color: #DDA63A;"><p>2</p></th>
-					<th class="sdg-header2" style="color: #4C9F38;"><p>3</p></th>
-					<th class="sdg-header2" style="color: #C5192D;"><p>4</p></th>
-					<th class="sdg-header2" style="color: #FF3A21;"><p>5</p></th>
-					<th class="sdg-header2" style="color: #26BDE2;"><p>6</p></th>
-					<th class="sdg-header2" style="color: #FCC30B;"><p>7</p></th>
-					<th class="sdg-header2" style="color: #A21942;"><p>8</p></th>
-					<th class="sdg-header2" style="color: #FD6925;"><p>9</p></th>
-					<th class="sdg-header2" style="color: #DD1367;"><p>10</p></th>
-					<th class="sdg-header2" style="color: #FD9D24;"><p>11</p></th>
-					<th class="sdg-header2" style="color: #BF8B2E;"><p>12</p></th>
-					<th class="sdg-header2" style="color: #3F7E44;"><p>13</p></th>
-					<th class="sdg-header2" style="color: #0A97D9;"><p>14</p></th>
-					<th class="sdg-header2" style="color: #56C02B;"><p>15</p></th>
-					<th class="sdg-header2" style="color: #00689D;"><p>16</p></th>
-					<th class="sdg-header2" style="color: #19486A;"><p>17</p></th>
-				</tr> -->
+				<!--<tr>-->
+					<!--<th class="sdg-header2"></th>-->
+					<!--<th class="sdg-header2" style="color: #e5243b;"><p class="sdg-f">1</p></th>-->
+					<!--<th class="sdg-header2" style="color: #DDA63A;"><p class="sdg-f">2</p></th>-->
+					<!--<th class="sdg-header2" style="color: #4C9F38;"><p class="sdg-f">3</p></th>-->
+					<!--<th class="sdg-header2" style="color: #C5192D;"><p class="sdg-f">4</p></th>-->
+					<!--<th class="sdg-header2" style="color: #FF3A21;"><p class="sdg-f">5</p></th>-->
+					<!--<th class="sdg-header2" style="color: #26BDE2;"><p class="sdg-f">6</p></th>-->
+					<!--<th class="sdg-header2" style="color: #FCC30B;"><p class="sdg-f">7</p></th>-->
+					<!--<th class="sdg-header2" style="color: #A21942;"><p class="sdg-f">8</p></th>-->
+					<!--<th class="sdg-header2" style="color: #FD6925;"><p class="sdg-f">9</p></th>-->
+					<!--<th class="sdg-header2" style="color: #DD1367;"><p class="sdg-f">10</p></th>-->
+					<!--<th class="sdg-header2" style="color: #FD9D24;"><p class="sdg-f">11</p></th>-->
+					<!--<th class="sdg-header2" style="color: #BF8B2E;"><p class="sdg-f">12</p></th>-->
+					<!--<th class="sdg-header2" style="color: #3F7E44;"><p class="sdg-f">13</p></th>-->
+					<!--<th class="sdg-header2" style="color: #0A97D9;"><p class="sdg-f">14</p></th>-->
+					<!--<th class="sdg-header2" style="color: #56C02B;"><p class="sdg-f">15</p></th>-->
+					<!--<th class="sdg-header2" style="color: #00689D;"><p class="sdg-f">16</p></th>-->
+					<!--<th class="sdg-header2" style="color: #19486A;"><p class="sdg-f">17</p></th>-->
+				<!--</tr>-->
 			</thead>
-			<!-- <tbody  id="records_table">
-			</tbody> -->
+			<!--<tbody  id="records_table">-->
+			<!--</tbody>-->
 		</table>
 	</div>
 	<div w3-include-html="footer.html"></div>

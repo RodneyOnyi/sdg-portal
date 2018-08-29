@@ -168,7 +168,7 @@
     "sdg17": 50
   },
   {
-    "country": "Central African Republic",
+    "country": "Central African Rep.",
     "region":"CAF",
     "sdg1": 70,
     "sdg2": 90,
@@ -629,7 +629,7 @@
     "sdg16": 30,
     "sdg17": 50
   },
-    {
+  {
     "country": "Mali",
     "region":"WAF",
     "sdg1": 70,
