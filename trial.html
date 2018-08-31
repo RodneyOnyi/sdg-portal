@@ -48,6 +48,9 @@
             font-weight: bold;
             font-size: 9px;
         }
+        .sdg-header-number{
+            vertical-align: bottom;
+        }
 
         button {
             height: 100px !important;
@@ -66,13 +69,36 @@
         table th, table td {
             overflow: hidden;
         }
+        /*
+          ##Device = Desktops
+          ##Screen = 1281px to higher resolution desktops
+        */
+        @media (min-width: 1281px) {
+            /*TODO work on this tomorrow*/
+            .table-responsive {
+                display: block;
+                max-height: 900px;
+                overflow-y: auto;
+                -ms-overflow-style: -ms-autohiding-scrollbar;
+            }
 
-        .table-responsive {
-            display: block;
-            max-height: 700px;
-            overflow-y: auto;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
         }
+        @media (min-width: 1025px) and (max-width: 1280px){
+            .table-responsive {
+                display: block;
+                max-height: 700px;
+                overflow-y: auto;
+                -ms-overflow-style: -ms-autohiding-scrollbar;
+            }
+
+        }
+
+        /*.table-responsive {*/
+            /*display: block;*/
+            /*max-height: 700px;*/
+            /*overflow-y: auto;*/
+            /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
+        /*}*/
 
         .region-button {
             margin-left: 0;
@@ -130,40 +156,59 @@
                     <thead style="background-color: white;">
                     <tr>
                         <th class="sdg-header2" style="width: 8.2%;"><p class="sdg-country-header">Country</p></th>
-                        <th class="sdg-header2" style="color: #e5243b;width: 5.4%;"><p class="sdg-f">NO POVERT<br>1</p><p class="sdg-header-number">1</p>
+                        <th class="sdg-header2" style="color: #e5243b;width: 5.4%;"><p class="sdg-f">NO POVERT</p>
                         </th>
-                        <th class="sdg-header2" style="color: #DDA63A;width: 5.4%;"><p class="sdg-f">ZERO HUNGER<br>2
-                        </p></th>
+                        <th class="sdg-header2" style="color: #DDA63A;width: 5.4%;"><p class="sdg-f">ZERO HUNGER</p></th>
                         <th class="sdg-header2" style="color: #4C9F38;width: 5.4%;"><p class="sdg-f">GOOD HEALTH AND
-                            WELL-BEING<br>3</p></th>
+                            WELL-BEING</p></th>
                         <th class="sdg-header2" style="color: #C5192D;width: 5.4%;"><p class="sdg-f">QUALITY EDUCATION
-                            <br>4</p></th>
-                        <th class="sdg-header2" style="color: #FF3A21;width: 5.4%;"><p class="sdg-f">GENDER EQUALITY<br>5
+                            </p></th>
+                        <th class="sdg-header2" style="color: #FF3A21;width: 5.4%;"><p class="sdg-f">GENDER EQUALITY
                         </p></th>
                         <th class="sdg-header2" style="color: #26BDE2;width: 5.4%;"><p class="sdg-f">CLEAN WATER AND
-                            SANITATION<br>6</p></th>
+                            SANITATION</p></th>
                         <th class="sdg-header2" style="color: #FCC30B;width: 5.4%;"><p class="sdg-f">AFFORDABLE AND
-                            CLEAN ENERGY<br>7</p></th>
+                            CLEAN ENERGY</p></th>
                         <th class="sdg-header2" style="color: #A21942;width: 5.4%;"><p class="sdg-f">DECENT WORK AND
-                            ECONOMIC GROWTH<br>8</p></th>
+                            ECONOMIC GROWTH</p></th>
                         <th class="sdg-header2" style="color: #FD6925;width: 5.4%;"><p class="sdg-f">INDUSTRY,
-                            INNOVATION AND INFRASTRUCTURE<br>9</p></th>
+                            INNOVATION AND INFRASTRUCTURE</p></th>
                         <th class="sdg-header2" style="color: #DD1367;width: 5.4%;"><p class="sdg-f">REDUCED
-                            INEQUALITIES<br>10</p></th>
+                            INEQUALITIES</p></th>
                         <th class="sdg-header2" style="color: #FD9D24;width: 5.4%;"><p class="sdg-f">SUSTAINABLE CITIES
-                            AND COMMUNITIES<br>11</p></th>
+                            AND COMMUNITIES</p></th>
                         <th class="sdg-header2" style="color: #BF8B2E;width: 5.4% !important;"><p class="sdg-f">
-                            RESPONSABLE CONSUMPTION AND PROTECTION<br>12</p></th>
-                        <th class="sdg-header2" style="color: #3F7E44;width: 5.4%;"><p class="sdg-f">CLIMATE ACTION<br>13
+                            RESPONSABLE CONSUMPTION AND PROTECTION</p></th>
+                        <th class="sdg-header2" style="color: #3F7E44;width: 5.4%;"><p class="sdg-f">CLIMATE ACTION
                         </p></th>
                         <th class="sdg-header2" style="color: #0A97D9;width: 5.4%;"><p class="sdg-f">LIFE BELOW
-                            WATER<br>14</p></th>
-                        <th class="sdg-header2" style="color: #56C02B;width: 5.4%;"><p class="sdg-f">LIFE ON LAND<br>15
+                            WATER</p></th>
+                        <th class="sdg-header2" style="color: #56C02B;width: 5.4%;"><p class="sdg-f">LIFE ON LAND
                         </p></th>
                         <th class="sdg-header2" style="color: #00689D;width: 5.4%;"><p class="sdg-f">PEACE, JUSTICE AND
-                            STRONG INSTITIONS<br>16</p></th>
+                            STRONG INSTITIONS</p></th>
                         <th class="sdg-header2" style="color: #19486A;width: 5.4%;"><p class="sdg-f">PARTNERSHIP FOR THE
-                            GOALS<br>17</p></th>
+                            GOALS</p></th>
+                    </tr>
+                    <tr>
+                    <th class="sdg-header2"></th>
+                    <th class="sdg-header2" style="color: #e5243b;"><p class="sdg-f">1</p></th>
+                    <th class="sdg-header2" style="color: #DDA63A;"><p class="sdg-f">2</p></th>
+                    <th class="sdg-header2" style="color: #4C9F38;"><p class="sdg-f">3</p></th>
+                    <th class="sdg-header2" style="color: #C5192D;"><p class="sdg-f">4</p></th>
+                    <th class="sdg-header2" style="color: #FF3A21;"><p class="sdg-f">5</p></th>
+                    <th class="sdg-header2" style="color: #26BDE2;"><p class="sdg-f">6</p></th>
+                    <th class="sdg-header2" style="color: #FCC30B;"><p class="sdg-f">7</p></th>
+                    <th class="sdg-header2" style="color: #A21942;"><p class="sdg-f">8</p></th>
+                    <th class="sdg-header2" style="color: #FD6925;"><p class="sdg-f">9</p></th>
+                    <th class="sdg-header2" style="color: #DD1367;"><p class="sdg-f">10</p></th>
+                    <th class="sdg-header2" style="color: #FD9D24;"><p class="sdg-f">11</p></th>
+                    <th class="sdg-header2" style="color: #BF8B2E;"><p class="sdg-f">12</p></th>
+                    <th class="sdg-header2" style="color: #3F7E44;"><p class="sdg-f">13</p></th>
+                    <th class="sdg-header2" style="color: #0A97D9;"><p class="sdg-f">14</p></th>
+                    <th class="sdg-header2" style="color: #56C02B;"><p class="sdg-f">15</p></th>
+                    <th class="sdg-header2" style="color: #00689D;"><p class="sdg-f">16</p></th>
+                    <th class="sdg-header2" style="color: #19486A;"><p class="sdg-f">17</p></th>
                     </tr>
                     </thead>
                     <tbody id="records_table">
