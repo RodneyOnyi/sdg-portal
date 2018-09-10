@@ -1,0 +1,348 @@
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="max-width: 100%; margin-left: 2%; margin-right: 2%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Country Profile</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Bio</h4>
+                        </div>
+                        <img src="assets/img/country_flags/algeria-flag-medium.png" style="width:20%;height:60%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Demographics</h4>
+                        </div>
+                        <div id="chartdiv"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>SDGs Progress Monitor</h4>
+                        </div>
+
+                        <div class="sdgs-center-div" style="margin-left: 10px;">
+                            <a href="sdgs/sdg1.html"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg2.html"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg3.html"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(4)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(5)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(6)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(7)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(8)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(9)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(10)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(11)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(12)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(13)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(14)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(15)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(16)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(17)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                        </div>
+                        <div id="chartdiv2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="left-side">
+                    <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Close</button>
+                </div>
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-link">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="max-width: 100%; margin-left: 2%; margin-right: 2%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Country Profile</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Bio</h4>
+                        </div>
+                        <img src="assets/img/country_flags/angola-flag-medium.png" style="width:20%;height:60%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Demographics</h4>
+                        </div>
+                        <div id="chartdiv"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>SDGs Progress Monitor</h4>
+                        </div>
+
+                        <div class="sdgs-center-div" style="margin-left: 10px;">
+                            <a href="sdgs/sdg1.html"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg2.html"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg3.html"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg"
+                                                                style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(4)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(5)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(6)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(7)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(8)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(9)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(10)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(11)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(12)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(13)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(14)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(15)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(16)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(17)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                        </div>
+                        <div id="chartdiv2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="left-side">
+                    <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Close</button>
+                </div>
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-link">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="max-width: 100%; margin-left: 2%; margin-right: 2%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Country Profile</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Bio</h4>
+                        </div>
+                        <img src="assets/img/country_flags/benin-flag-medium.png" style="width:20%;height:60%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Demographics</h4>
+                        </div>
+                        <div id="chartdiv"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>SDGs Progress Monitor</h4>
+                        </div>
+
+                        <div class="sdgs-center-div" style="margin-left: 10px;">
+                            <a href="sdgs/sdg1.html"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg2.html"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg3.html"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(4)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(5)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(6)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(7)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(8)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(9)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(10)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(11)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(12)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(13)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(14)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(15)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(16)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(17)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                        </div>
+                        <div id="chartdiv2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="left-side">
+                    <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Close</button>
+                </div>
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-link">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="max-width: 100%; margin-left: 2%; margin-right: 2%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Country Profile</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Bio</h4>
+                        </div>
+                        <img src="assets/img/country_flags/botswana-flag-medium.png" style="width:20%;height:60%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>Country Demographics</h4>
+                        </div>
+                        <div id="chartdiv"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-12">
+                        <div style="text-align: center;color: white;font-weight: bold; background-color: #164e6d; margin: 0 0 10px 0 ;width: 100%; height: 10%; border-radius: 10px 10px 0px 0px;">
+                            <h4>SDGs Progress Monitor</h4>
+                        </div>
+
+                        <div class="sdgs-center-div" style="margin-left: 10px;">
+                            <a href="sdgs/sdg1.html"><img src="assets/img/sdg_icons/E_SDG_Icons-01.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg2.html"><img src="assets/img/sdg_icons/E_SDG_Icons-02.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a href="sdgs/sdg3.html"><img src="assets/img/sdg_icons/E_SDG_Icons-03.jpg"
+                                                          style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(4)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-04.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(5)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-05.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(6)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-06.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(7)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-07.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(8)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-08.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(9)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-09.jpg"
+                                                                    style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(10)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-10.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(11)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-11.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(12)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-12.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(13)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-13.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(14)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-14.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(15)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-15.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(16)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-16.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                            <a onclick="updateSDG(17)" href="#"><img src="assets/img/sdg_icons/E_SDG_Icons-17.jpg"
+                                                                     style="width:50px;height:50px;"></a>
+                        </div>
+                        <div id="chartdiv2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="left-side">
+                    <button type="button" class="btn btn-default btn-link" data-dismiss="modal">Close</button>
+                </div>
+                <div class="divider"></div>
+                <div class="right-side">
+                    <button type="button" class="btn btn-danger btn-link">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
