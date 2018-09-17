@@ -2,6 +2,33 @@
 TODO:
 - Check data labels after drilling. Label rank? New positions?
 */
+
+// Function to load specific country data on map click start
+function loadCountryData(countryId) {
+    var countryDataURL = 'assets/data/countryProfile.json';
+    var countryData=null;
+    $.getJSON(countryDataURL, function (data) {
+        for (var  key in data) {
+            var newKey=parseInt(key, 10);
+            if ((newKey--) == countryId) {
+                countryData = {
+                    "name": data[newKey].name,
+                    "capital": data[newKey].capital,
+                    "region": data[newKey].region,
+                    "flagURL": data[newKey].flagURL,
+                    "size": data[newKey].size,
+                    "capitalPopulation": data[newKey].capitalPopulation,
+                    "totalPopulation": data[newKey].totalPopulation
+                };
+                console.log(countryData);
+                // return countryData;
+                $('#myModal').modal('show');
+            }
+        }
+    });
+}
+
+// Function to load specific country data on map click end
 var dataSourceURL = null;
 
 function updateAfricaMap(n) {
@@ -28,7 +55,7 @@ $(document).ready(function () {
 function loadMap(n) {
     if (n == 1) {
         var data = $.getJSON(dataSourceURL, function (data) {
-            console.log(data[0].value);
+            // console.log(data[0].value);
 
 // Create the chart
             Highcharts.mapChart('container', {
@@ -51,27 +78,28 @@ function loadMap(n) {
                         point: {
                             events: {
                                 click: function () {
-                                    // console.log(this.value);
-                                    if (this.value == 1) {
-                                        $('#myModal').modal('show'); //TODO pass modal Id as a parameter
-                                    }else if(this.value == 2){
-                                        $('#myModal2').modal('show');
-                                    }else if (this.value == 3){
-                                        $('#myModal3').modal('show');
-                                    }else if (this.value == 4){
-                                        $('#myModal4').modal('show');
-                                    }
-                                    else {
-                                        $('#myModal1').modal('show');
-                                    }
+                                    // console.log(loadCountryData(this.value));
+                                    // alert(this.value);
+                                    loadCountryData(this.value);
+                                    // if (this.value == 1) {
+                                    //     $('#myModal').modal('show'); //TODO pass modal Id as a parameter
+                                    // }else if(this.value == 2){
+                                    //     $('#myModal2').modal('show');
+                                    // }else if (this.value == 3){
+                                    //     $('#myModal3').modal('show');
+                                    // }else if (this.value == 4){
+                                    //     $('#myModal4').modal('show');
+                                    // }
+                                    // else {
+                                    //     $('#myModal1').modal('show');
+                                    // }
                                 }
                             }
                         }
                     }
                 },
 
-                mapNavigation: {
-                },
+                mapNavigation: {},
 
                 colorAxis: {
                     min: 0,

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Kenya",
+    "capital":"Nairobi",
+    "region":"Eastern Africa",
+    "flagURL":"assets/img/country_flags/kenya-flag-medium.png",
+    "size":12345,
+    "capitalPopulation":123456,
+    "totalPopulation":23454321
+  },
+  {
+    "id": 2,
+    "name": "Uganda",
+    "capital":"Kampala",
+    "region":"Eastern Africa",
+    "flagURL":"assets/img/country_flags/uganda-flag-medium.png",
+    "size":456,
+    "capitalPopulation":678945,
+    "totalPopulation":99999999
+  }
+]
