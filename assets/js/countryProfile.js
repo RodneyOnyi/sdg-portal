@@ -6,10 +6,10 @@ TODO:
 // Function to load specific country data on map click start
 function loadCountryData(countryId) {
     var countryDataURL = 'assets/data/countryProfile.json';
-    var countryData=null;
+    var countryData = null;
     $.getJSON(countryDataURL, function (data) {
-        for (var  key in data) {
-            var newKey=parseInt(key, 10);
+        for (var key in data) {
+            var newKey = parseInt(key, 10);
             if ((newKey--) == countryId) {
                 countryData = {
                     "name": data[newKey].name,
@@ -21,13 +21,26 @@ function loadCountryData(countryId) {
                     "totalPopulation": data[newKey].totalPopulation
                 };
                 var profile = '<div class="person-list-item">' +
-                                '<h3 id="countryName"><i class="fa fa-info"></i> Name:'+countryData.name+'</h3>'+
-                                '<h4 class="white" id="region"><i class="fa fa-globe"></i> Region:'+countryData.region+'</h4>'+
-                                '<h4 class="white" id="capitalCity"><i class="fa fa-map-marker"></i> Capital:'+countryData.capital+'</h4>'+
-                            '</div>';
-                var flagURL='<img src="'+countryData.flagURL+'" class="img-fluid" style="max-width:50%;max-height:50%;float: right;">';
+                    '<h3 id="countryName"><i class="fa fa-info"></i> Name:' + countryData.name + '</h3>' +
+                    '<h4 class="white" id="region"><i class="fa fa-globe"></i> Region:' + countryData.region + '</h4>' +
+                    '<h4 class="white" id="capitalCity"><i class="fa fa-map-marker"></i> Capital:' + countryData.capital + '</h4>' +
+                    '</div>';
+                var flagURL = '<img src="' + countryData.flagURL + '" class="img-fluid" style="max-width:50%;max-height:50%;float: right;">';
+                var countryStatistics = '<div class="col-md-4 user-pad text-center">' +
+                    '<h3>SIZE(sq.km)</h3>' +
+                    '<h4>' + countryData.size + '</h4>' +
+                    '</div>' +
+                    '<div class="col-md-4 user-pad text-center">' +
+                    '<h3>TOTAL POPULATION</h3>' +
+                    '<h4>' + countryData.totalPopulation + '</h4>' +
+                    '</div>' +
+                    '<div class="col-md-4 user-pad text-center">' +
+                    '<h3>CAPITAL POPULATION</h3>' +
+                    '<h4>' + countryData.capitalPopulation + '</h4>' +
+                    '</div>';
                 $('#countryProfile').append(profile);
                 $('#flagURL').append(flagURL);
+                $('#countryStatistics').append(countryStatistics);
                 $('#myModal').modal('show');
             }
         }
