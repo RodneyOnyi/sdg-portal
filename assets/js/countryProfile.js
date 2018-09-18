@@ -7,6 +7,7 @@ TODO:
 function loadCountryData(countryId) {
     var countryDataURL = 'assets/data/countryProfile.json';
     var countryData = null;
+    countryDemographicsChart(countryId);
     $.getJSON(countryDataURL, function (data) {
         for (var key in data) {
             var newKey = parseInt(key, 10);
@@ -54,14 +55,12 @@ var dataSourceURL = null;
 function updateAfricaMap(n) {
     if (n == 411) {
         $('#myModal').modal('hide');
-        //get the data source and update var. This is the data that loads.
         dataSourceURL = 'assets/data/trial.json';
         loadMap(1);
 
     }
     else if (412) {
         $('#myModal').modal('hide');
-        //get the data source and update var. This is the data that loads.
         dataSourceURL = 'assets/data/trial.json';
         loadMap(1);
     }
@@ -75,9 +74,7 @@ $(document).ready(function () {
 function loadMap(n) {
     if (n == 1) {
         var data = $.getJSON(dataSourceURL, function (data) {
-            // console.log(data[0].value);
 
-// Create the chart
             Highcharts.mapChart('container', {
                 chart: {
                     map: 'custom/africa',
@@ -98,21 +95,7 @@ function loadMap(n) {
                         point: {
                             events: {
                                 click: function () {
-                                    // console.log(loadCountryData(this.value));
-                                    // alert(this.value);
                                     loadCountryData(this.value);
-                                    // if (this.value == 1) {
-                                    //     $('#myModal').modal('show'); //TODO pass modal Id as a parameter
-                                    // }else if(this.value == 2){
-                                    //     $('#myModal2').modal('show');
-                                    // }else if (this.value == 3){
-                                    //     $('#myModal3').modal('show');
-                                    // }else if (this.value == 4){
-                                    //     $('#myModal4').modal('show');
-                                    // }
-                                    // else {
-                                    //     $('#myModal1').modal('show');
-                                    // }
                                 }
                             }
                         }
@@ -131,7 +114,7 @@ function loadMap(n) {
                     data: data,
                     mapData: Highcharts.maps['custom/africa'],
                     joinBy: ['iso-a2', 'code'],
-                    name: 'Random data',
+                    name: 'Country Profile',
                     cursor: 'pointer',
                     borderColor: 'black', //changes color of the country borders
                     borderWidth: 0.5,
