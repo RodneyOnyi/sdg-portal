@@ -11,6 +11,7 @@ function loadCountryData(countryId) {
         for (var key in data) {
             var newKey = parseInt(key, 10);
             if ((newKey--) == countryId) {
+                console.log(newKey);
                 countryData = {
                     "name": data[newKey].name,
                     "capital": data[newKey].capital,
@@ -38,9 +39,9 @@ function loadCountryData(countryId) {
                     '<h3>CAPITAL POPULATION</h3>' +
                     '<h4>' + countryData.capitalPopulation + '</h4>' +
                     '</div>';
-                $('#countryProfile').append(profile);
-                $('#flagURL').append(flagURL);
-                $('#countryStatistics').append(countryStatistics);
+                $('#countryProfile').empty().append(profile);
+                $('#flagURL').empty().append(flagURL);
+                $('#countryStatistics').empty().append(countryStatistics);
                 $('#myModal').modal('show');
             }
         }
