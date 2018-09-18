@@ -20,8 +20,14 @@ function loadCountryData(countryId) {
                     "capitalPopulation": data[newKey].capitalPopulation,
                     "totalPopulation": data[newKey].totalPopulation
                 };
-                console.log(countryData);
-                // return countryData;
+                var profile = '<div class="person-list-item">' +
+                                '<h3 id="countryName"><i class="fa fa-info"></i> Name:'+countryData.name+'</h3>'+
+                                '<h4 class="white" id="region"><i class="fa fa-globe"></i> Region:'+countryData.region+'</h4>'+
+                                '<h4 class="white" id="capitalCity"><i class="fa fa-map-marker"></i> Capital:'+countryData.capital+'</h4>'+
+                            '</div>';
+                var flagURL='<img src="'+countryData.flagURL+'" class="img-fluid" style="max-width:50%;max-height:50%;float: right;">';
+                $('#countryProfile').append(profile);
+                $('#flagURL').append(flagURL);
                 $('#myModal').modal('show');
             }
         }
