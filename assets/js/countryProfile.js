@@ -78,7 +78,9 @@ function loadMap(n) {
             Highcharts.mapChart('container', {
                 chart: {
                     map: 'custom/africa',
-                    backgroundColor: 'transparent'
+                    backgroundColor: 'transparent',
+                    width: 1000,
+                    height: 650
                 },
 
                 title: {
