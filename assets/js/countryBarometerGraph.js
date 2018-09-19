@@ -11,6 +11,7 @@ function countryBarometerGraph(countryID,sdgID) {
             if ((newKey--) === sdgID) {
                 var score=data[newKey].score;
                 var gaugeChart = AmCharts.makeChart("chartdiv2", {
+                    "creditsPosition":"bottom-right",
                     "theme": "light",
                     "type": "gauge",
                     "axes": [{

@@ -4,6 +4,7 @@ function countryDemographicsChart(countryID) {
     var countryDemoDataURL = 'assets/data/' + countryID + 'DemographicsChartData.json';
     $.getJSON(countryDemoDataURL, function (data) {
         var chart = AmCharts.makeChart("chartdiv", {
+            "creditsPosition":"bottom-right",
             "type": "serial",
             "theme": "light",
             "rotate": true,
