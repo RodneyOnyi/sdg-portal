@@ -1,4 +1,5 @@
 function countryDemographicsChart(countryID) {
+    localStorage.setItem("countryID",countryID);
     $("#chartdiv").empty();
     var countryDemoDataURL = 'assets/data/' + countryID + 'DemographicsChartData.json';
     $.getJSON(countryDemoDataURL, function (data) {
@@ -82,7 +83,6 @@ function countryDemographicsChart(countryID) {
 
         });
     }).fail(function () {
-        console.log("error fetching countryDemographicsChart Data")
         var noData = '<div  class="row""><div class="col-md-2"></div>' +
             '<div class="col-md-8"><p style="text-align: center;vertical-align: center;margin-top: 30%;font-weight: bold;">' +
             '<i class="fa fa-warning" style="font-size:40px;color:red"></i><br>No Data Available</p></div>' +

@@ -8,11 +8,11 @@ function loadCountryData(countryId) {
     var countryDataURL = 'assets/data/countryProfile.json';
     var countryData = null;
     countryDemographicsChart(countryId);
+    countryBarometerGraph(countryId,1);
     $.getJSON(countryDataURL, function (data) {
         for (var key in data) {
             var newKey = parseInt(key, 10);
             if ((newKey--) == countryId) {
-                console.log(newKey);
                 countryData = {
                     "name": data[newKey].name,
                     "capital": data[newKey].capital,
