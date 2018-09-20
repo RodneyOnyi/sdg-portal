@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>Africa SDG Watch | Country Profile</title>
+    <title>Africa SDG Watch | About Us</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <meta name="viewport" content="width=device-width"/>
@@ -78,9 +78,11 @@
 
 
     <!-- Chart code -->
-    <script>
-
-    </script>
+    <style>
+        .card-title, .card-text,.explore{
+            text-align: center;
+        }
+    </style>
 
 
 </head>
@@ -91,9 +93,18 @@
     <div class="row" style="width: 100% !important;height: 10%;">
         <div class="col-md-12" w3-include-html="header.html"></div>
     </div>
-    <div class="row" style="width: 100% !important;margin-top: 1%;background-color: rgb(250,250,250);">
+    <div class="row" style="width: 100% !important;margin-top: 1%;background-color: white;">
         <div class="col-md-1"></div>
-        <div class="col-md-10 card" id="container"></div>
+        <div class="col-md-10">
+            <div class="card" style="width: 100%;height: 40rem;background-color:#D9B38A">
+                <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="explore">Explore</p>
+                </div>
+            </div>
+        </div>
         <div class="col-md-1"></div>
     </div>
     <div class="row" style="height: 10%;">
@@ -124,6 +135,4 @@
 <script>
     w3.includeHTML();
 </script>
-<script type="text/javascript" src="assets/js/countryProfile.js"></script>
-
 </html>
