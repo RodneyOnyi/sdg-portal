@@ -43,6 +43,7 @@
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         var player;
+
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
                 videoId: 'gi5iFTbc_FI',
@@ -92,42 +93,24 @@
             font-size: 64px;
             text-shadow: 1px 1px 3px black;
         }
+
+        .card {
+            border-radius: 0;
+        }
     </style>
 </head>
 <div class="preloader"></div>
-<div class="container-fluid bg-video">
-    <div class="overlay"></div>
-    <div id="player"></div>
+<div class="container-fluid">
+    <!--<div class="overlay"></div>-->
     <div class="row" style="width: 100% !important;height: 10%;">
         <div class="col-md-12 fixed-top" w3-include-html="header.html"></div>
     </div>
     <div class="row" style="width: 100% !important;margin-top: 10%;">
-        <div class="col-md-12">
-            <!--<div class="bg-video">-->
-
-            <!--</div>-->
+        <div class="col-md-6 card overlay">
+            <div id="player"></div>
         </div>
-        <!--<div class="col-md-12">-->
-            <!--<div class="page-header section-dark" style="background-image: url('assets/img/bg/bg.png')">-->
-                <!--<div class="filter"></div>-->
-                <!--<div class="content-center">-->
-                    <!--<div class="title-brand">-->
-                        <!--<h1 class="presentation-title">Africa SDG Watch</h1>-->
-                        <!--<div class="fog-low">-->
-                            <!--<img src="assets/img/fog-low.png" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="fog-low right">-->
-                            <!--<img src="assets/img/fog-low.png" alt="">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<h2 class="presentation-subtitle text-center">Africa's Progress Monitor On SDGs</h2>-->
-                    <!--<a href="country_profile.html" class="btn btn-danger btn-round"-->
-                       <!--style="margin-left:42%; margin-right:42%;">Explore</a>-->
-                <!--</div>-->
-                <!--<div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+        <div class="col-md-6 card">
+        </div>
     </div>
     <div class="row" style="height: 10%;">
         <div class="col-md-12 fixed-bottom" w3-include-html="footer.html" style="background-color: #f5f5f5;"></div>
