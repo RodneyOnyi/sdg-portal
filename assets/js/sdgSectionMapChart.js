@@ -8,6 +8,11 @@ $(document).ready(function () {
 
 function loadMap(n) {
     if (n == 1) {
+        var dataSourceURL = '../assets/data/sdgTarget11.json';
+        var countriesData = null;
+        $.getJSON(dataSourceURL, function (data) {
+            countriesData = data;
+        });
         var geoj = Highcharts.maps['custom/world-continents'],
             cities = [
                 {
@@ -27,7 +32,7 @@ function loadMap(n) {
                 {
                     code: 'af',
                     drilldown: 'custom/africa',
-                    value: 2
+                    value: 1
                 }
             ]
 
@@ -35,41 +40,40 @@ function loadMap(n) {
             chart: {
                 events: {
                     drilldown: function (e) {
-                        if (!e.seriesOptions) {
                             var chart = this,
                                 mapKey = e.point.drilldown,
                                 chartName = e.point.name;
 
                             $.getScript('https://code.highcharts.com/mapdata/' + mapKey + '.js', function () {
                                 var data = [],
-                                    chosenCities = [],
+                                    // chosenCities = [],
                                     drillPath,
-                                    continentName = e.point.name,
+                                    // continentName = e.point.name,
                                     regionMap = Highcharts.maps[mapKey],
                                     regionMapGeoJson = Highcharts.geojson(regionMap);
 
                                 $.each(regionMapGeoJson, function (indxx, elem) {
                                     drillPath = 'countries/' + elem.properties['hc-key'].slice(0, 2) + '/' + elem.properties['hc-key'] + '-all';
-
                                     data.push({
                                         code: elem.properties['hc-key'],
                                         value: indxx,
                                         drilldown: drillPath
                                     })
                                 });
-
+                                // document.write(JSON.stringify(data));
+                                // Hide loading and add series
                                 chart.addSingleSeriesAsDrilldown(e.point, {
                                     name: e.point.name,
-                                    data: data,
+                                    data: countriesData,
                                     mapData: regionMap,
                                     joinBy: ['hc-key', 'code'],
                                 });
 
-                                cities.forEach(function (el, inx) {
-                                    if ($.inArray(continentName, el.continent) !== -1) {
-                                        chosenCities.push(el);
-                                    }
-                                });
+                                // cities.forEach(function (el, inx) {
+                                //     if ($.inArray(continentName, el.continent) !== -1) {
+                                //         chosenCities.push(el);
+                                //     }
+                                // });
                                 chart.applyDrilldown();
 
                                 chart.setTitle(null, {
@@ -78,7 +82,6 @@ function loadMap(n) {
                             }).fail(function (jqxhr, settings, exception) {
                                 console.log('Couldn\'t find JS file!');
                             });
-                        }
                     },
                     drillup: function () {
                         this.setTitle(null, {
@@ -103,6 +106,11 @@ function loadMap(n) {
                 layout: 'vertical',
                 align: 'right',
                 verticalAlign: 'middle'
+            },
+            colorAxis: {
+                min: 0,
+                maxColor: '#FF0000',
+                minColor: '#008000'
             },
             mapNavigation: {
                 enabled: true,
