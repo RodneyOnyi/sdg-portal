@@ -51,7 +51,7 @@ function loadRegion(n) {
     }
 }
 
-var dataSourceUrl = "assets/data/scorecardData.json";
+var dataSourceUrl = "../assets/data/scorecardData.json";
 $.getJSON(dataSourceUrl, function (data) {
     $.each(data, function (i, item) {
         $('<tr>').addClass(item.region).append(
