@@ -60,7 +60,7 @@ $.getJSON(dataSourceUrl, function (data) {
                 "color": "black",
                 "font-weight": "bold",
                 "text-transform": "capitalize",
-                "font-size": "7.5px",
+                "font-size": "8px",
                 "font-family": "Roboto, Helvetica, Arial, sans-serif"
             }).text(item.country),
             $('<td>').css('background-color', (item.sdg1 >= 1 && item.sdg1 <= 33 ? '#e8153b' : (item.sdg1 >= 34 && item.sdg1 <= 66 ? '#f67e37' : (item.sdg1 >= 67 && item.sdg1 <= 100 ? '#2daf58' : 'grey')))),
