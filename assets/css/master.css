@@ -36,6 +36,8 @@
 }
 
 .sdgSectionIcons {
-    width: 110%;
+    width: 120%;
     height: 100%;
+    margin-left: -15px;
+
 }
