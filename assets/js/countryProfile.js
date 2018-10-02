@@ -108,8 +108,8 @@ function loadMap(n) {
 
                 colorAxis: {
                     min: 0,
-                    minColor: '#f9db8e',
-                    maxColor: '#f9db8e'
+                    minColor: '#00BFFF',
+                    maxColor: '#00BFFF'
                 },
 
                 series: [{
