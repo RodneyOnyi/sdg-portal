@@ -19,7 +19,7 @@ function loadMap(n,containerID) {
             countriesData = data;
         });
         var geoj = Highcharts.maps['custom/world-continents'],
-            cities = [
+            /*cities = [
                 {
                     name: 'Johannesburg',
                     continent: ['Africa', 'South Africa'],
@@ -32,7 +32,7 @@ function loadMap(n,containerID) {
                     lat: 31.7917,
                     lon: 7.0926
                 }
-            ],
+            ],*/
             data = [
                 {
                     code: 'af',
@@ -56,7 +56,7 @@ function loadMap(n,containerID) {
                                     // continentName = e.point.name,
                                     regionMap = Highcharts.maps[mapKey],
                                     regionMapGeoJson = Highcharts.geojson(regionMap);
-
+                                  /*
                                 $.each(regionMapGeoJson, function (indxx, elem) {
                                     drillPath = 'countries/' + elem.properties['hc-key'].slice(0, 2) + '/' + elem.properties['hc-key'] + '-all';
                                     data.push({
@@ -65,14 +65,17 @@ function loadMap(n,containerID) {
                                         drilldown: drillPath
                                     })
                                 });
+                                */
                                 // document.write(JSON.stringify(data));
                                 // Hide loading and add series
+
                                 chart.addSingleSeriesAsDrilldown(e.point, {
                                     name: e.point.name,
                                     data: countriesData,
                                     mapData: regionMap,
                                     joinBy: ['hc-key', 'code'],
                                 });
+
 
                                 // cities.forEach(function (el, inx) {
                                 //     if ($.inArray(continentName, el.continent) !== -1) {
